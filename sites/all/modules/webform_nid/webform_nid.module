@@ -1,0 +1,14 @@
+<?php
+function webform_nid_form_alter(&$form, $form_state, $form_id) {
+  if ($form_id == 'webform_client_form_61') {
+    if ($node = menu_get_object()) {
+      $form['submitted']['service']['#value'] = $node->title;
+    }
+  }
+  if ($form_id == 'webform_client_form_63') {
+    if ($node = menu_get_object()) {
+      $form['submitted']['job_title']['#value'] = $node->title;
+    }
+  }
+}
+?>

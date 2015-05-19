@@ -1,0 +1,3 @@
+name = webform nid
+description = Get the nid of the current node where the Webform block is placed
+core = 7.x
