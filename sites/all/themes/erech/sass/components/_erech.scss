@@ -37,5 +37,47 @@ textarea:focus, input:focus{
     outline-width:0;
 }
 
+#header{
+  padding: 0;
+  #navigation{
+    position: relative;
+    float: left;
+    width: auto;
+    clear: left;
+  } 
+  #logo{
+    float: right;
+  }
+  .region-header{
+    float: left;
+    clear: none;
+  }
+}
+
+#main{
+  @include width;
+  #content{
+    padding: 0;
+  }
+}
+
+#page, .region-bottom{
+  max-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+/********** front ****************/
+
+.front{
+  #page-title{
+    display: none;
+  }
+  #main{
+    max-width: 100%;
+    width: 100%;
+    padding: 0;
+  }
+}
+
 /********** main menu ****************/
 

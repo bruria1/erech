@@ -7,6 +7,8 @@
  * @see https://drupal.org/node/1728164
  */
 ?>
+  <div class="front-image"><img src="http://localhost:8888/erech/sites/all/themes/erech/images/erech-front.jpg"></div>
+
 <article class="node-<?php print $node->nid; ?> <?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 
   <?php if ($title_prefix || $title_suffix || $display_submitted || $unpublished || !$page && $title): ?>
@@ -29,7 +31,7 @@
       <?php endif; ?>
     </header>
   <?php endif; ?>
-
+  <h1><div class="about-title">מי אנחנו</div></h1>
   <?php
     // We hide the comments and links now so that we can render them later.
     hide($content['comments']);
