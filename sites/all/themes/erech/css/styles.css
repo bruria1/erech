@@ -1699,9 +1699,29 @@ tr.selected td {
 /* line 803, ../sass/components/_misc.scss */
 .progress .filled {
   background-color: #0072b9;
-  background-image: url('../images/progress.gif?1398863088');
+  background-image: url('../images/progress.gif?1432013097');
 }
 
+/********** global ****************/
+/* line 25, ../sass/components/_erech.scss */
+a, a:link, a:visited {
+  text-decoration: none;
+  outline: 0;
+}
+
+/* line 30, ../sass/components/_erech.scss */
+textarea:focus, input:focus {
+  outline: 0;
+}
+
+/* line 34, ../sass/components/_erech.scss */
+*:focus {
+  outline: 0;
+  outline-style: none;
+  outline-width: 0;
+}
+
+/********** main menu ****************/
 /**
  * @file
  * Print styling
