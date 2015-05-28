@@ -91,84 +91,6 @@ audio:not([controls]) {
  * can add them to the font variables in the _init.scss partial.
  */
 /*
-<<<<<<< HEAD
-Error: Invalid CSS after "...93911a48bf10f74": expected "{", was "}"
-        on line 683 of /home/erech/public_html/sites/all/themes/erech/sass/components/_erech.scss
-        from line 20 of /home/erech/public_html/sites/all/themes/erech/sass/styles.scss
-
-678:         }
-679:       }
-680:     }
-681:   }
-682: >>>>>>> 1509a151bf8ed709d39d428da93911a48bf10f74
-683: }
-
-Backtrace:
-/home/erech/public_html/sites/all/themes/erech/sass/components/_erech.scss:683
-/home/erech/public_html/sites/all/themes/erech/sass/styles.scss:20
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/scss/parser.rb:1163:in `expected'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/scss/parser.rb:1099:in `expected'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/scss/parser.rb:1094:in `tok!'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/scss/parser.rb:641:in `block'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/scss/parser.rb:711:in `declaration_or_ruleset'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/scss/parser.rb:661:in `block_child'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/scss/parser.rb:653:in `block_contents'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/scss/parser.rb:642:in `block'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/scss/parser.rb:711:in `declaration_or_ruleset'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/scss/parser.rb:661:in `block_child'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/scss/parser.rb:653:in `block_contents'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/scss/parser.rb:642:in `block'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/scss/parser.rb:635:in `ruleset'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/scss/parser.rb:660:in `block_child'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/scss/parser.rb:653:in `block_contents'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/scss/parser.rb:117:in `stylesheet'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/scss/parser.rb:42:in `parse'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/engine.rb:393:in `_to_tree'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/engine.rb:299:in `to_tree'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/tree/visitors/perform.rb:307:in `block in visit_import'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/stack.rb:88:in `block in with_import'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/stack.rb:115:in `with_frame'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/stack.rb:88:in `with_import'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/tree/visitors/perform.rb:306:in `visit_import'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/stack.rb:79:in `block in with_base'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/stack.rb:115:in `with_frame'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/stack.rb:79:in `with_base'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/tree/visitors/perform.rb:152:in `visit'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/tree/visitors/base.rb:52:in `map'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/tree/visitors/perform.rb:161:in `block in visit_children'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/tree/visitors/perform.rb:173:in `with_environment'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/tree/visitors/perform.rb:160:in `visit_children'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/tree/visitors/perform.rb:180:in `visit_root'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/tree/visitors/perform.rb:151:in `visit'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/tree/visitors/perform.rb:8:in `visit'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/tree/root_node.rb:36:in `css_tree'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/tree/root_node.rb:20:in `render'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/engine.rb:268:in `render'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/plugin/compiler.rb:209:in `each'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/lib/sass/plugin/compiler.rb:329:in `block in watch'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/vendor/listen/lib/listen/listener.rb:252:in `call'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/vendor/listen/lib/listen/adapter.rb:254:in `call'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
-/usr/local/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.2/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"...93911a48bf10f74\": expected \"{\", was \"}\"\A         on line 683 of /home/erech/public_html/sites/all/themes/erech/sass/components/_erech.scss\A         from line 20 of /home/erech/public_html/sites/all/themes/erech/sass/styles.scss\A \A 678:         }\A 679:       }\A 680:     }\A 681:   }\A 682: >>>>>>> 1509a151bf8ed709d39d428da93911a48bf10f74\A 683: }"; }
-=======
 @font-face {
   font-family: 'Example';
   src: url('../fonts/example.eot');
@@ -2185,6 +2107,49 @@ img {
   background: url("../images/service-6.png") no-repeat scroll center top transparent;
 }
 
+/********* responsive menu  *********/
+/* line 359, ../sass/components/_erech.scss */
+.menu-right, #mmenu_right {
+  display: none;
+}
+@media (max-width: 767px) {
+  /* line 359, ../sass/components/_erech.scss */
+  .menu-right, #mmenu_right {
+    display: block;
+  }
+}
+
+/* line 367, ../sass/components/_erech.scss */
+.menu-right {
+  position: absolute;
+  right: 0;
+  top: 27px;
+}
+@media (max-width: 767px) {
+  /* line 367, ../sass/components/_erech.scss */
+  .menu-right {
+    top: 22px;
+  }
+}
+/* line 374, ../sass/components/_erech.scss */
+.menu-right span {
+  display: block;
+  height: 8px;
+  margin-bottom: 10px;
+  margin-top: 0 !important;
+  background-color: #9e9d9e;
+  border-radius: 0;
+  width: 43px;
+}
+@media (max-width: 480px) {
+  /* line 374, ../sass/components/_erech.scss */
+  .menu-right span {
+    height: 5px;
+    margin-bottom: 5px;
+    width: 39px;
+  }
+}
+
 /**
  * @file
  * Print styling
@@ -2274,4 +2239,3 @@ img {
 /* SMACSS theme rules */
 /* @import "theme-A"; */
 /* @import "theme-B"; */
->>>>>>> 27222e4e2f4857eef448847ff337f04963c815a4

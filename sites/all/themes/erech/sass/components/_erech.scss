@@ -352,3 +352,38 @@ img{
     }
   }
 }
+
+/********* responsive menu  *********/
+
+
+.menu-right, #mmenu_right{
+  display: none;
+  @include res(s-m){
+    display: block;
+  }
+}
+
+
+.menu-right{
+  position: absolute;
+  right: 0;
+  top: 27px;
+  @include res(s-m){
+    top: 22px;
+  }
+      span {
+        display: block;
+        height: 8px;
+        margin-bottom: 10px;
+        margin-top: 0!important;
+        background-color: #9e9d9e;
+        border-radius: 0;
+        width: 43px;
+        @include res(s){
+          height: 5px;
+          margin-bottom: 5px;
+          width: 39px;
+        }
+      }
+}
+
