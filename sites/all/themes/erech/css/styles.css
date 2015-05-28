@@ -1703,46 +1703,55 @@ tr.selected td {
 }
 
 /********** global ****************/
-/* line 25, ../sass/components/_erech.scss */
+/* line 26, ../sass/components/_erech.scss */
 a, a:link, a:visited {
   text-decoration: none;
   outline: 0;
 }
 
-/* line 30, ../sass/components/_erech.scss */
+/* line 31, ../sass/components/_erech.scss */
 textarea:focus, input:focus {
   outline: 0;
 }
 
-/* line 34, ../sass/components/_erech.scss */
+/* line 35, ../sass/components/_erech.scss */
+body {
+  font-size: 15px;
+}
+
+/* line 39, ../sass/components/_erech.scss */
 *:focus {
   outline: 0;
   outline-style: none;
   outline-width: 0;
 }
 
-/* line 40, ../sass/components/_erech.scss */
+/* line 45, ../sass/components/_erech.scss */
 #header {
-  padding: 0;
+  width: 1340px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 3%;
+  box-sizing: border-box;
 }
-/* line 42, ../sass/components/_erech.scss */
+/* line 47, ../sass/components/_erech.scss */
 #header #navigation {
   position: relative;
   float: left;
   width: auto;
   clear: left;
 }
-/* line 48, ../sass/components/_erech.scss */
+/* line 53, ../sass/components/_erech.scss */
 #header #logo {
   float: right;
 }
-/* line 51, ../sass/components/_erech.scss */
+/* line 56, ../sass/components/_erech.scss */
 #header .region-header {
   float: left;
   clear: none;
 }
 
-/* line 57, ../sass/components/_erech.scss */
+/* line 62, ../sass/components/_erech.scss */
 #main {
   width: 1340px;
   max-width: 100%;
@@ -1750,24 +1759,46 @@ textarea:focus, input:focus {
   padding: 0 3%;
   box-sizing: border-box;
 }
-/* line 59, ../sass/components/_erech.scss */
+/* line 64, ../sass/components/_erech.scss */
 #main #content {
   padding: 0;
 }
 
-/* line 64, ../sass/components/_erech.scss */
+/* line 69, ../sass/components/_erech.scss */
 #page, .region-bottom {
   max-width: 100%;
   padding: 0;
   width: 100%;
 }
 
+/* line 75, ../sass/components/_erech.scss */
+.pink-line {
+  position: absolute;
+  background-color: #ffefe1;
+  width: 50%;
+  left: 0;
+  height: 33px;
+  z-index: -1;
+}
+/* line 82, ../sass/components/_erech.scss */
+.pink-line:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 33px 33px 0 0;
+  border-color: #ffefe1 transparent transparent transparent;
+  display: block;
+  position: absolute;
+  right: -33px;
+}
+
 /********** front ****************/
-/* line 72, ../sass/components/_erech.scss */
+/* line 97, ../sass/components/_erech.scss */
 .front #page-title {
   display: none;
 }
-/* line 75, ../sass/components/_erech.scss */
+/* line 100, ../sass/components/_erech.scss */
 .front #main {
   max-width: 100%;
   width: 100%;
