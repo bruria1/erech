@@ -7,8 +7,11 @@
  * @see https://drupal.org/node/1728164
  */
 ?>
-  <div class="front-image"><img src="http://localhost:8888/erech/sites/all/themes/erech/images/erech-front.jpg"></div>
-
+  <div class="front-image">
+    <img src="http://localhost:8888/erech/sites/all/themes/erech/images/erech-front.jpg">
+    <div class="gray-line"></div>
+  </div>
+<div class="article-wrapper">
 <article class="node-<?php print $node->nid; ?> <?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 
   <?php if ($title_prefix || $title_suffix || $display_submitted || $unpublished || !$page && $title): ?>
@@ -39,9 +42,10 @@
     print render($content);
   ?>
 
-<div class="button continue"><a href="/node/2">להמשך קריאה</a></div>
+<div class="button continue"><a href="/node/2">לקריאה נוספת</a></div>
   <?php print render($content['links']); ?>
 
   <?php print render($content['comments']); ?>
 
 </article>
+</div>

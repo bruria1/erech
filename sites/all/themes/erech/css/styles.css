@@ -1702,56 +1702,41 @@ tr.selected td {
   background-image: url('../images/progress.gif?1432013097');
 }
 
+@font-face {
+  font-family: Open-Sans;
+  src: url("../fonts/Open-Sans.eot?") format("eot"), url("../fonts/Open-Sans.woff") format("woff"), url("../fonts/Open-Sans.eot?#iefix") format("embedded-opentype"), url("../fonts/Open-Sans.ttf") format("truetype");
+}
 /********** global ****************/
-/* line 26, ../sass/components/_erech.scss */
+/* line 51, ../sass/components/_erech.scss */
 a, a:link, a:visited {
   text-decoration: none;
   outline: 0;
 }
 
-/* line 31, ../sass/components/_erech.scss */
+/* line 56, ../sass/components/_erech.scss */
 textarea:focus, input:focus {
   outline: 0;
 }
 
-/* line 35, ../sass/components/_erech.scss */
+/* line 60, ../sass/components/_erech.scss */
 body {
-  font-size: 15px;
+  font-size: 16px;
+  color: #666666;
+  font-family: Open-Sans;
+}
+/* line 64, ../sass/components/_erech.scss */
+body a {
+  color: #666666;
 }
 
-/* line 39, ../sass/components/_erech.scss */
+/* line 69, ../sass/components/_erech.scss */
 *:focus {
   outline: 0;
   outline-style: none;
   outline-width: 0;
 }
 
-/* line 45, ../sass/components/_erech.scss */
-#header {
-  width: 1340px;
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 0 3%;
-  box-sizing: border-box;
-}
-/* line 47, ../sass/components/_erech.scss */
-#header #navigation {
-  position: relative;
-  float: left;
-  width: auto;
-  clear: left;
-}
-/* line 53, ../sass/components/_erech.scss */
-#header #logo {
-  float: right;
-}
-/* line 56, ../sass/components/_erech.scss */
-#header .region-header {
-  float: left;
-  clear: none;
-}
-
-/* line 62, ../sass/components/_erech.scss */
+/* line 75, ../sass/components/_erech.scss */
 #main {
   width: 1340px;
   max-width: 100%;
@@ -1759,19 +1744,57 @@ body {
   padding: 0 3%;
   box-sizing: border-box;
 }
-/* line 64, ../sass/components/_erech.scss */
+/* line 77, ../sass/components/_erech.scss */
 #main #content {
   padding: 0;
 }
 
-/* line 69, ../sass/components/_erech.scss */
+/* line 82, ../sass/components/_erech.scss */
 #page, .region-bottom {
   max-width: 100%;
   padding: 0;
   width: 100%;
 }
 
-/* line 75, ../sass/components/_erech.scss */
+/* line 88, ../sass/components/_erech.scss */
+img {
+  margin-bottom: -6px;
+}
+
+/* line 92, ../sass/components/_erech.scss */
+.block {
+  margin-bottom: 0;
+}
+
+/********** top - footer ****************/
+/* line 97, ../sass/components/_erech.scss */
+#header {
+  width: 1340px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 3%;
+  box-sizing: border-box;
+}
+/* line 99, ../sass/components/_erech.scss */
+#header #navigation {
+  position: relative;
+  float: left;
+  width: auto;
+  clear: left;
+  padding: 0;
+}
+/* line 106, ../sass/components/_erech.scss */
+#header #logo {
+  float: right;
+  padding: 11px 0 16px;
+}
+/* line 110, ../sass/components/_erech.scss */
+#header .region-header {
+  float: left;
+  clear: none;
+}
+
+/* line 116, ../sass/components/_erech.scss */
 .pink-line {
   position: absolute;
   background-color: #ffefe1;
@@ -1780,7 +1803,7 @@ body {
   height: 33px;
   z-index: -1;
 }
-/* line 82, ../sass/components/_erech.scss */
+/* line 123, ../sass/components/_erech.scss */
 .pink-line:after {
   content: "";
   width: 0;
@@ -1793,19 +1816,238 @@ body {
   right: -33px;
 }
 
+/* line 137, ../sass/components/_erech.scss */
+#block-block-3 .phone {
+  background: url("../images/phone.png") no-repeat scroll left center transparent;
+  padding-left: 27px;
+  padding-right: 10px;
+  margin: 4px 0;
+  float: left;
+}
+/* line 144, ../sass/components/_erech.scss */
+#block-block-3 .email {
+  background: url("../images/email.png") no-repeat scroll left center transparent;
+  padding: 0 10px 0 27px;
+  margin: 4px 0;
+  float: left;
+}
+
+/* line 152, ../sass/components/_erech.scss */
+.wrapper-bottom {
+  background-color: #4d4d4d;
+  overflow: hidden;
+}
+/* line 155, ../sass/components/_erech.scss */
+.wrapper-bottom .region-bottom {
+  width: 1340px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 3%;
+  box-sizing: border-box;
+  color: #fff;
+  padding: 6px 3%  31px;
+}
+/* line 159, ../sass/components/_erech.scss */
+.wrapper-bottom .region-bottom a {
+  color: #ef8f3b;
+}
+/* line 162, ../sass/components/_erech.scss */
+.wrapper-bottom .region-bottom #block-block-1 {
+  float: right;
+}
+/* line 165, ../sass/components/_erech.scss */
+.wrapper-bottom .region-bottom #block-block-2 {
+  float: left;
+}
+/* line 167, ../sass/components/_erech.scss */
+.wrapper-bottom .region-bottom #block-block-2 img {
+  margin: 0 0 -4px 13px;
+}
+/* line 171, ../sass/components/_erech.scss */
+.wrapper-bottom .region-bottom p {
+  margin: 0;
+}
+
+/********** main menu ****************/
+/* line 178, ../sass/components/_erech.scss */
+#main-menu {
+  margin-top: 30px;
+}
+/* line 180, ../sass/components/_erech.scss */
+#main-menu a {
+  font-size: 1.5em;
+  padding: 0px 10px;
+}
+/* line 183, ../sass/components/_erech.scss */
+#main-menu a:hover {
+  background-color: #d56625 !important;
+  border-radius: 7px;
+  color: #fff;
+  background-image: none !important;
+}
+/* line 189, ../sass/components/_erech.scss */
+#main-menu a.active {
+  background: url("../images/menu-circle.png") no-repeat scroll center bottom transparent;
+  padding-bottom: 2px;
+}
+/* line 194, ../sass/components/_erech.scss */
+#main-menu li {
+  padding: 0 10px 0 0 !important;
+}
+
 /********** front ****************/
-/* line 97, ../sass/components/_erech.scss */
+/* line 201, ../sass/components/_erech.scss */
+.front-image .gray-line {
+  background-color: #cbcbcb;
+  height: 12px;
+  opacity: 0.8;
+}
+
+/* line 208, ../sass/components/_erech.scss */
 .front #page-title {
   display: none;
 }
-/* line 100, ../sass/components/_erech.scss */
+/* line 211, ../sass/components/_erech.scss */
 .front #main {
   max-width: 100%;
   width: 100%;
   padding: 0;
+  background: url("../images/texture.jpg") repeat scroll center bottom transparent;
+  overflow: hidden;
+}
+/* line 219, ../sass/components/_erech.scss */
+.front .article-wrapper article {
+  width: 1340px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 3%;
+  box-sizing: border-box;
+  text-align: center;
+}
+/* line 222, ../sass/components/_erech.scss */
+.front .article-wrapper article h1 {
+  margin: 0;
+  color: #d56625;
+  line-height: 2em;
+}
+/* line 229, ../sass/components/_erech.scss */
+.front .field-name-body {
+  width: 1050px;
+  max-width: 100%;
+  margin: 0 auto;
+  font-size: 1.4em;
+  line-height: 1.3em;
+}
+/* line 235, ../sass/components/_erech.scss */
+.front .field-name-body strong {
+  margin: 25px 0 18px;
+  display: block;
+}
+/* line 240, ../sass/components/_erech.scss */
+.front .button a {
+  padding: 5px 10px;
+  background-color: #ef8f3b;
+  color: #fff;
+  border-radius: 7px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+/* line 42, ../sass/components/_erech.scss */
+.front .button a:hover {
+  background-color: #ffaf66;
+}
+/* line 243, ../sass/components/_erech.scss */
+.front .region-content-bottom {
+  background: url("../images/seperate.png") no-repeat scroll center top transparent;
+  background-size: 100%;
+  opacity: 0.8;
+  margin-top: 30px;
+}
+/* line 248, ../sass/components/_erech.scss */
+.front .region-content-bottom #block-views-services-block-1 {
+  position: relative;
+  top: 50px;
+  background-color: #ef8f3b;
+  padding: 0px 3% 63px;
+  overflow: hidden;
+}
+/* line 254, ../sass/components/_erech.scss */
+.front .region-content-bottom #block-views-services-block-1 h2 {
+  width: 1340px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 3%;
+  box-sizing: border-box;
+  font-size: 3em;
+  color: #fff;
+  text-align: center;
+}
+/* line 260, ../sass/components/_erech.scss */
+.front .region-content-bottom #block-views-services-block-1 .view-services {
+  width: 1340px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 3%;
+  box-sizing: border-box;
+  width: 1150px;
+  text-align: center;
+}
+/* line 264, ../sass/components/_erech.scss */
+.front .region-content-bottom #block-views-services-block-1 .view-services .views-row {
+  float: right;
+  width: 23%;
+  margin-bottom: 30px;
+}
+/* line 268, ../sass/components/_erech.scss */
+.front .region-content-bottom #block-views-services-block-1 .view-services .views-row a {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: bold;
+  border-bottom: 1px solid #fff;
+  padding: 103px 0 5px;
+  display: block;
+}
+/* line 277, ../sass/components/_erech.scss */
+.front .region-content-bottom #block-views-services-block-1 .view-services .views-row-1 {
+  padding-left: 15.5%;
+}
+/* line 279, ../sass/components/_erech.scss */
+.front .region-content-bottom #block-views-services-block-1 .view-services .views-row-1 a {
+  background: url("../images/service-1.png") no-repeat scroll center top transparent;
+}
+/* line 283, ../sass/components/_erech.scss */
+.front .region-content-bottom #block-views-services-block-1 .view-services .views-row-2 {
+  padding-left: 15.5%;
+}
+/* line 285, ../sass/components/_erech.scss */
+.front .region-content-bottom #block-views-services-block-1 .view-services .views-row-2 a {
+  background: url("../images/service-2.png") no-repeat scroll center top transparent;
+}
+/* line 290, ../sass/components/_erech.scss */
+.front .region-content-bottom #block-views-services-block-1 .view-services .views-row-3 a {
+  background: url("../images/service-3.png") no-repeat scroll center top transparent;
+}
+/* line 294, ../sass/components/_erech.scss */
+.front .region-content-bottom #block-views-services-block-1 .view-services .views-row-4 {
+  padding-left: 15.5%;
+}
+/* line 296, ../sass/components/_erech.scss */
+.front .region-content-bottom #block-views-services-block-1 .view-services .views-row-4 a {
+  background: url("../images/service-4.png") no-repeat scroll center top transparent;
+}
+/* line 300, ../sass/components/_erech.scss */
+.front .region-content-bottom #block-views-services-block-1 .view-services .views-row-5 {
+  padding-left: 15.5%;
+}
+/* line 302, ../sass/components/_erech.scss */
+.front .region-content-bottom #block-views-services-block-1 .view-services .views-row-5 a {
+  background: url("../images/service-5.png") no-repeat scroll center top transparent;
+}
+/* line 307, ../sass/components/_erech.scss */
+.front .region-content-bottom #block-views-services-block-1 .view-services .views-row-6 a {
+  background: url("../images/service-6.png") no-repeat scroll center top transparent;
 }
 
-/********** main menu ****************/
 /**
  * @file
  * Print styling
