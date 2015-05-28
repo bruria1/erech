@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @font-face {
   font-family: Open-Sans;
   src: url('../fonts/Open-Sans.eot?') format('eot'), 
@@ -59,346 +58,7 @@ textarea:focus, input:focus{
 }
 
 body{
-  font-size: 16px;
-  color: $default;
-  font-family: Open-Sans;
-  a{
-    color: $default;
-  }
-}
-
-*:focus {
-    outline: 0;
-    outline-style:none;
-    outline-width:0;
-}
-
-#main{
-  @include width;
-  #content{
-    padding: 0;
-  }
-}
-
-#page, .region-bottom{
-  max-width: 100%;
-  padding: 0;
-  width: 100%;
-}
-
-img{
-  margin-bottom: -6px;
-}
-
-.block{
-  margin-bottom: 0;
-}
-
-.phone a{
-    pointer-events: none;
-    cursor: default; 
-    color: $default;
-    @include res(s-m){
-      pointer-events: auto;
-      cursor: pointer;    
-    }
-}
-/********** top - footer ****************/
-
-#header{
-  @include width;
-  #navigation{
-    position: relative;
-    float: left;
-    width: auto;
-    clear: left;
-    padding: 0;
-  } 
-  #logo{
-    float: right;
-    padding: 11px 0 16px;
-  }
-  .region-header{
-    float: left;
-    clear: none;
-  }
-}
-
-.pink-line{
-  position: absolute;
-  background-color: $pink;
-  width: 50%;
-  left: 0;
-  height: 33px;
-  z-index: -1;
-  &:after{
-    content:""; 
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 33px 33px 0 0;
-    border-color: $pink transparent transparent transparent;
-    display: block;
-    position: absolute;
-    right: -33px;
-  }
-}
-
-#block-block-3{
-  .phone{
-    background: url("../images/phone.png") no-repeat scroll left center transparent;
-    padding-left: 27px;
-    padding-right: 10px;
-    margin: 4px 0;
-    float: left;
-  }
-  .email{
-    background: url("../images/email.png") no-repeat scroll left center transparent;
-    padding: 0 10px 0 27px;
-    margin: 4px 0;
-    float: left;
-  }
-}
-
-.wrapper-bottom{
-  background-color: #4d4d4d;
-  overflow: hidden;
-  .region-bottom{
-    @include width;
-    color: #fff;
-    padding: 6px 3%  31px;
-    a{
-      color: $orange;
-    }
-    #block-block-1{
-      float: right;
-      @include res(s-m){
-        width: 100%;
-        text-align: center;
-      }
-    }
-    #block-block-2{
-      float: left;
-      @include res(s-m){
-        width: 100%;
-        text-align: center;
-        margin: 20px 0 20px;
-      }
-      img{
-        margin: 0 0 -4px 13px;
-      }
-    }
-    p{
-      margin: 0;
-    }
-  }
-}
-/********** main menu ****************/
-
-#main-menu{
-  margin-top: 30px;
-  a{
-    font-size: 1.5em;
-    padding: 0px 10px;
-    &:hover{
-      background-color: $title-orange!important;
-      border-radius: 7px;
-      color: #fff;
-      background-image: none!important;
-    }
-    &.active{
-      background: url("../images/menu-circle.png") no-repeat scroll center bottom transparent;
-      padding-bottom: 2px;
-    }
-  }
-  li{
-    padding: 0 10px 0 0!important;
-  }
-}
-
-/********** front ****************/
-
-.front-image .gray-line{
-  background-color: #cbcbcb;
-  height: 12px;
-  opacity: 0.8;
-}
-
-.front{
-  #page-title{
-    display: none;
-  }
-  #main{
-    max-width: 100%;
-    width: 100%;
-    padding: 0;
-    background: url("../images/texture.jpg") repeat scroll center bottom transparent;
-    overflow: hidden;
-  }
-  .article-wrapper{
-    article{
-      @include width;
-      text-align: center;
-      h1{
-        margin: 0;
-        color: $title-orange;
-        line-height: 2em;
-      }
-    }
-  }
-  .field-name-body{
-    width: 1050px;
-    max-width: 100%;
-    margin: 0 auto;
-    font-size: 1.4em;
-    line-height: 1.3em;
-    strong{
-      margin: 25px 0 18px;
-      display: block;
-    }
-  }
-  .button a{
-    @include button;
-  }
-  .region-content-bottom{
-    background: url("../images/Seperate.png") no-repeat scroll center top transparent;
-    opacity: 0.8;
-    margin-top: 30px;
-    #block-views-services-block-1{
-      position: relative;
-      top: 60px;
-      background-color: $orange;
-      padding: 0px 3% 63px;
-      overflow: hidden;
-      h2{
-        @include width;
-        font-size: 3em;
-        color: #fff;
-        text-align: center;
-      }
-      .view-services{
-        @include width;
-        width: 1150px;
-        text-align: center;
-        .views-row{
-          float: right;
-          width: 23%;
-          margin-bottom: 30px;
-          @include res(s-m){
-            padding: 0;
-            width: 100%;
-          }
-          a{
-            color: #fff;
-            font-size: 1.5em;
-            font-weight: bold;
-            border-bottom: 1px solid #fff;
-            padding: 103px 0 5px;
-            display: block;
-            @include res(s-m){
-              border: none;
-            }
-          }
-        }
-        .views-row-1{
-          padding-left: 15.5%;
-          a{
-            background: url("../images/service-1.png") no-repeat scroll center top transparent;
-          }
-        }
-        .views-row-2{
-          padding-left: 15.5%;
-          a{
-            background: url("../images/service-2.png") no-repeat scroll center top transparent;
-          }
-        }
-        .views-row-3{
-          a{
-            background: url("../images/service-3.png") no-repeat scroll center top transparent;
-          }
-        }
-        .views-row-4{
-          padding-left: 15.5%;
-          a{
-            background: url("../images/service-4.png") no-repeat scroll center top transparent;
-          }
-        }
-        .views-row-5{
-          padding-left: 15.5%;
-          a{
-            background: url("../images/service-5.png") no-repeat scroll center top transparent;
-          }
-        }
-        .views-row-6{
-          a{
-            background: url("../images/service-6.png") no-repeat scroll center top transparent;
-          }
-        }
-      }
-    }
-  }
-=======
-@font-face {
-  font-family: Open-Sans;
-  src: url('../fonts/Open-Sans.eot?') format('eot'), 
-  url('../fonts/Open-Sans.woff') format('woff'),
-  url('../fonts/Open-Sans.eot?#iefix') format('embedded-opentype'), 
-  url('../fonts/Open-Sans.ttf') format('truetype');
-}
-
- @mixin res($media) {
-  @if $media == s {
-    @media (max-width: 480px) { @content; }
-  }
-  @else if $media == m {
-    @media (min-width: 481px) and (max-width: 767px) { @content; }
-  }
-  @if $media == s-m {
-    @media (max-width: 767px) { @content; }
-  }
-}
-
-$pink: #ffefe1;
-$default: #666666;
-$title-orange: #d56625;
-$orange: #ef8f3b;
-$orange-h: #ffaf66;
-
-@mixin width(){
-  width: 1340px;
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 0 3%;
-  box-sizing: border-box;
-}
-
-@mixin button(){
-  padding: 5px 10px;
-  background-color: $orange;
-  color: #fff;
-  border-radius: 7px;
-  transition: all 0.5s;
-  -webkit-transition: all 0.5s;
-  &:hover{
-    background-color: $orange-h;
-  }
-}
-
-
-
-/********** global ****************/
-
-a, a:link, a:visited{
-  text-decoration: none;
-  outline: 0;
-}
-
-textarea:focus, input:focus{
-    outline: 0;
-}
-
-body{
-  font-size: 16px;
+  font-size: 15px;
   color: $default;
   font-family: Open-Sans;
   a{
@@ -626,6 +286,17 @@ img{
           float: right;
           width: 23%;
           margin-bottom: 30px;
+          background-position: center 92%;
+          padding-bottom: 38px;
+          transition: all 0.5s;
+          -webkit-transition: all 0.5s;
+          &:hover{
+              background: url("../images/service-circle.png") no-repeat scroll center 92% $pink;
+              a{
+                color: $default;
+                border-bottom: 1px solid $orange;
+              }
+          }
           @include res(s-m){
             padding: 0;
             width: 100%;
@@ -637,19 +308,20 @@ img{
             border-bottom: 1px solid #fff;
             padding: 103px 0 5px;
             display: block;
+            margin: 5px;
             @include res(s-m){
               border: none;
             }
           }
         }
         .views-row-1{
-          padding-left: 15.5%;
+          margin-left: 15.5%;
           a{
             background: url("../images/service-1.png") no-repeat scroll center top transparent;
           }
         }
         .views-row-2{
-          padding-left: 15.5%;
+          margin-left: 15.5%;
           a{
             background: url("../images/service-2.png") no-repeat scroll center top transparent;
           }
@@ -660,13 +332,13 @@ img{
           }
         }
         .views-row-4{
-          padding-left: 15.5%;
+          margin-left: 15.5%;
           a{
             background: url("../images/service-4.png") no-repeat scroll center top transparent;
           }
         }
         .views-row-5{
-          padding-left: 15.5%;
+          margin-left: 15.5%;
           a{
             background: url("../images/service-5.png") no-repeat scroll center top transparent;
           }
@@ -679,5 +351,4 @@ img{
       }
     }
   }
->>>>>>> 1509a151bf8ed709d39d428da93911a48bf10f74
 }
