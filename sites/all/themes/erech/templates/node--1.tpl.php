@@ -8,7 +8,7 @@
  */
 ?>
   <div class="front-image">
-    <img src="http://localhost:8888/erech/sites/all/themes/erech/images/erech-front.jpg">
+    <img src="/sites/all/themes/erech/images/erech-front.jpg">
     <div class="gray-line"></div>
   </div>
 <div class="article-wrapper">

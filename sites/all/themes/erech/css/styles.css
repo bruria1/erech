@@ -1865,78 +1865,138 @@ img {
 .wrapper-bottom .region-bottom a {
   color: #ef8f3b;
 }
+<<<<<<< HEAD
 /* line 172, ../sass/components/_erech.scss */
+=======
+/* line 171, ../sass/components/_erech.scss */
+.wrapper-bottom .region-bottom a:hover {
+  color: #ffaf66;
+}
+/* line 175, ../sass/components/_erech.scss */
+>>>>>>> 1509a151bf8ed709d39d428da93911a48bf10f74
 .wrapper-bottom .region-bottom #block-block-1 {
   float: right;
 }
 @media (max-width: 767px) {
+<<<<<<< HEAD
   /* line 172, ../sass/components/_erech.scss */
+=======
+  /* line 175, ../sass/components/_erech.scss */
+>>>>>>> 1509a151bf8ed709d39d428da93911a48bf10f74
   .wrapper-bottom .region-bottom #block-block-1 {
     width: 100%;
     text-align: center;
   }
 }
+<<<<<<< HEAD
 /* line 179, ../sass/components/_erech.scss */
+=======
+/* line 182, ../sass/components/_erech.scss */
+>>>>>>> 1509a151bf8ed709d39d428da93911a48bf10f74
 .wrapper-bottom .region-bottom #block-block-2 {
   float: left;
 }
 @media (max-width: 767px) {
+<<<<<<< HEAD
   /* line 179, ../sass/components/_erech.scss */
+=======
+  /* line 182, ../sass/components/_erech.scss */
+>>>>>>> 1509a151bf8ed709d39d428da93911a48bf10f74
   .wrapper-bottom .region-bottom #block-block-2 {
     width: 100%;
     text-align: center;
     margin: 20px 0 20px;
   }
 }
+<<<<<<< HEAD
 /* line 186, ../sass/components/_erech.scss */
 .wrapper-bottom .region-bottom #block-block-2 img {
   margin: 0 0 -4px 13px;
 }
 /* line 190, ../sass/components/_erech.scss */
+=======
+/* line 189, ../sass/components/_erech.scss */
+.wrapper-bottom .region-bottom #block-block-2 img {
+  margin: 0 0 -4px 13px;
+}
+/* line 193, ../sass/components/_erech.scss */
+>>>>>>> 1509a151bf8ed709d39d428da93911a48bf10f74
 .wrapper-bottom .region-bottom p {
   margin: 0;
 }
 
 /********** main menu ****************/
+<<<<<<< HEAD
 /* line 197, ../sass/components/_erech.scss */
 #main-menu {
   margin-top: 30px;
 }
 /* line 199, ../sass/components/_erech.scss */
+=======
+/* line 200, ../sass/components/_erech.scss */
+#main-menu {
+  margin-top: 30px;
+}
+/* line 202, ../sass/components/_erech.scss */
+>>>>>>> 1509a151bf8ed709d39d428da93911a48bf10f74
 #main-menu a {
   font-size: 1.5em;
   padding: 0px 10px;
 }
+<<<<<<< HEAD
 /* line 202, ../sass/components/_erech.scss */
+=======
+/* line 205, ../sass/components/_erech.scss */
+>>>>>>> 1509a151bf8ed709d39d428da93911a48bf10f74
 #main-menu a:hover {
   background-color: #d56625 !important;
   border-radius: 7px;
   color: #fff;
   background-image: none !important;
 }
+<<<<<<< HEAD
 /* line 208, ../sass/components/_erech.scss */
+=======
+/* line 211, ../sass/components/_erech.scss */
+>>>>>>> 1509a151bf8ed709d39d428da93911a48bf10f74
 #main-menu a.active {
   background: url("../images/menu-circle.png") no-repeat scroll center bottom transparent;
   padding-bottom: 2px;
 }
+<<<<<<< HEAD
 /* line 213, ../sass/components/_erech.scss */
+=======
+/* line 216, ../sass/components/_erech.scss */
+>>>>>>> 1509a151bf8ed709d39d428da93911a48bf10f74
 #main-menu li {
   padding: 0 10px 0 0 !important;
 }
 
 /********** front ****************/
+<<<<<<< HEAD
 /* line 220, ../sass/components/_erech.scss */
+=======
+/* line 223, ../sass/components/_erech.scss */
+>>>>>>> 1509a151bf8ed709d39d428da93911a48bf10f74
 .front-image .gray-line {
   background-color: #cbcbcb;
   height: 12px;
   opacity: 0.8;
 }
 
+<<<<<<< HEAD
 /* line 227, ../sass/components/_erech.scss */
 .front #page-title {
   display: none;
 }
 /* line 230, ../sass/components/_erech.scss */
+=======
+/* line 230, ../sass/components/_erech.scss */
+.front #page-title {
+  display: none;
+}
+/* line 233, ../sass/components/_erech.scss */
+>>>>>>> 1509a151bf8ed709d39d428da93911a48bf10f74
 .front #main {
   max-width: 100%;
   width: 100%;
@@ -1944,7 +2004,11 @@ img {
   background: url("../images/texture.jpg") repeat scroll center bottom transparent;
   overflow: hidden;
 }
+<<<<<<< HEAD
 /* line 238, ../sass/components/_erech.scss */
+=======
+/* line 241, ../sass/components/_erech.scss */
+>>>>>>> 1509a151bf8ed709d39d428da93911a48bf10f74
 .front .article-wrapper article {
   width: 1340px;
   max-width: 100%;
@@ -1953,13 +2017,21 @@ img {
   box-sizing: border-box;
   text-align: center;
 }
+<<<<<<< HEAD
 /* line 241, ../sass/components/_erech.scss */
+=======
+/* line 244, ../sass/components/_erech.scss */
+>>>>>>> 1509a151bf8ed709d39d428da93911a48bf10f74
 .front .article-wrapper article h1 {
   margin: 0;
   color: #d56625;
   line-height: 2em;
 }
+<<<<<<< HEAD
 /* line 248, ../sass/components/_erech.scss */
+=======
+/* line 251, ../sass/components/_erech.scss */
+>>>>>>> 1509a151bf8ed709d39d428da93911a48bf10f74
 .front .field-name-body {
   width: 1050px;
   max-width: 100%;
@@ -1967,12 +2039,20 @@ img {
   font-size: 1.4em;
   line-height: 1.3em;
 }
+<<<<<<< HEAD
 /* line 254, ../sass/components/_erech.scss */
+=======
+/* line 257, ../sass/components/_erech.scss */
+>>>>>>> 1509a151bf8ed709d39d428da93911a48bf10f74
 .front .field-name-body strong {
   margin: 25px 0 18px;
   display: block;
 }
+<<<<<<< HEAD
 /* line 259, ../sass/components/_erech.scss */
+=======
+/* line 262, ../sass/components/_erech.scss */
+>>>>>>> 1509a151bf8ed709d39d428da93911a48bf10f74
 .front .button a {
   padding: 5px 10px;
   background-color: #ef8f3b;
@@ -1985,13 +2065,21 @@ img {
 .front .button a:hover {
   background-color: #ffaf66;
 }
+<<<<<<< HEAD
 /* line 262, ../sass/components/_erech.scss */
+=======
+/* line 265, ../sass/components/_erech.scss */
+>>>>>>> 1509a151bf8ed709d39d428da93911a48bf10f74
 .front .region-content-bottom {
   background: url("../images/Seperate.png") no-repeat scroll center top transparent;
   opacity: 0.8;
   margin-top: 30px;
 }
+<<<<<<< HEAD
 /* line 266, ../sass/components/_erech.scss */
+=======
+/* line 269, ../sass/components/_erech.scss */
+>>>>>>> 1509a151bf8ed709d39d428da93911a48bf10f74
 .front .region-content-bottom #block-views-services-block-1 {
   position: relative;
   top: 60px;
@@ -1999,7 +2087,11 @@ img {
   padding: 0px 3% 63px;
   overflow: hidden;
 }
+<<<<<<< HEAD
 /* line 272, ../sass/components/_erech.scss */
+=======
+/* line 275, ../sass/components/_erech.scss */
+>>>>>>> 1509a151bf8ed709d39d428da93911a48bf10f74
 .front .region-content-bottom #block-views-services-block-1 h2 {
   width: 1340px;
   max-width: 100%;
@@ -2010,7 +2102,11 @@ img {
   color: #fff;
   text-align: center;
 }
+<<<<<<< HEAD
 /* line 278, ../sass/components/_erech.scss */
+=======
+/* line 281, ../sass/components/_erech.scss */
+>>>>>>> 1509a151bf8ed709d39d428da93911a48bf10f74
 .front .region-content-bottom #block-views-services-block-1 .view-services {
   width: 1340px;
   max-width: 100%;
@@ -2020,20 +2116,32 @@ img {
   width: 1150px;
   text-align: center;
 }
+<<<<<<< HEAD
 /* line 282, ../sass/components/_erech.scss */
+=======
+/* line 285, ../sass/components/_erech.scss */
+>>>>>>> 1509a151bf8ed709d39d428da93911a48bf10f74
 .front .region-content-bottom #block-views-services-block-1 .view-services .views-row {
   float: right;
   width: 23%;
   margin-bottom: 30px;
 }
 @media (max-width: 767px) {
+<<<<<<< HEAD
   /* line 282, ../sass/components/_erech.scss */
+=======
+  /* line 285, ../sass/components/_erech.scss */
+>>>>>>> 1509a151bf8ed709d39d428da93911a48bf10f74
   .front .region-content-bottom #block-views-services-block-1 .view-services .views-row {
     padding: 0;
     width: 100%;
   }
 }
+<<<<<<< HEAD
 /* line 290, ../sass/components/_erech.scss */
+=======
+/* line 293, ../sass/components/_erech.scss */
+>>>>>>> 1509a151bf8ed709d39d428da93911a48bf10f74
 .front .region-content-bottom #block-views-services-block-1 .view-services .views-row a {
   color: #fff;
   font-size: 1.5em;
@@ -2043,11 +2151,16 @@ img {
   display: block;
 }
 @media (max-width: 767px) {
+<<<<<<< HEAD
   /* line 290, ../sass/components/_erech.scss */
+=======
+  /* line 293, ../sass/components/_erech.scss */
+>>>>>>> 1509a151bf8ed709d39d428da93911a48bf10f74
   .front .region-content-bottom #block-views-services-block-1 .view-services .views-row a {
     border: none;
   }
 }
+<<<<<<< HEAD
 /* line 302, ../sass/components/_erech.scss */
 .front .region-content-bottom #block-views-services-block-1 .view-services .views-row-1 {
   padding-left: 15.5%;
@@ -2085,6 +2198,45 @@ img {
   background: url("../images/service-5.png") no-repeat scroll center top transparent;
 }
 /* line 332, ../sass/components/_erech.scss */
+=======
+/* line 305, ../sass/components/_erech.scss */
+.front .region-content-bottom #block-views-services-block-1 .view-services .views-row-1 {
+  padding-left: 15.5%;
+}
+/* line 307, ../sass/components/_erech.scss */
+.front .region-content-bottom #block-views-services-block-1 .view-services .views-row-1 a {
+  background: url("../images/service-1.png") no-repeat scroll center top transparent;
+}
+/* line 311, ../sass/components/_erech.scss */
+.front .region-content-bottom #block-views-services-block-1 .view-services .views-row-2 {
+  padding-left: 15.5%;
+}
+/* line 313, ../sass/components/_erech.scss */
+.front .region-content-bottom #block-views-services-block-1 .view-services .views-row-2 a {
+  background: url("../images/service-2.png") no-repeat scroll center top transparent;
+}
+/* line 318, ../sass/components/_erech.scss */
+.front .region-content-bottom #block-views-services-block-1 .view-services .views-row-3 a {
+  background: url("../images/service-3.png") no-repeat scroll center top transparent;
+}
+/* line 322, ../sass/components/_erech.scss */
+.front .region-content-bottom #block-views-services-block-1 .view-services .views-row-4 {
+  padding-left: 15.5%;
+}
+/* line 324, ../sass/components/_erech.scss */
+.front .region-content-bottom #block-views-services-block-1 .view-services .views-row-4 a {
+  background: url("../images/service-4.png") no-repeat scroll center top transparent;
+}
+/* line 328, ../sass/components/_erech.scss */
+.front .region-content-bottom #block-views-services-block-1 .view-services .views-row-5 {
+  padding-left: 15.5%;
+}
+/* line 330, ../sass/components/_erech.scss */
+.front .region-content-bottom #block-views-services-block-1 .view-services .views-row-5 a {
+  background: url("../images/service-5.png") no-repeat scroll center top transparent;
+}
+/* line 335, ../sass/components/_erech.scss */
+>>>>>>> 1509a151bf8ed709d39d428da93911a48bf10f74
 .front .region-content-bottom #block-views-services-block-1 .view-services .views-row-6 a {
   background: url("../images/service-6.png") no-repeat scroll center top transparent;
 }
