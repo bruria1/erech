@@ -11,6 +11,7 @@
 <div class="pink-line"></div>
 
 <div id="page">
+  <a href="#mmenu_right" class="menu-right"><span></span><span></span><span></span></a>
 
   <header class="header" id="header" role="banner">
 
