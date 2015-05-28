@@ -8,6 +8,8 @@
  */
 ?>
 
+<div class="pink-line"></div>
+
 <div id="page">
 
   <header class="header" id="header" role="banner">

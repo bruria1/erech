@@ -19,6 +19,7 @@
   box-sizing: border-box;
 }
 
+$pink: #ffefe1;
 
 /********** global ****************/
 
@@ -31,6 +32,10 @@ textarea:focus, input:focus{
     outline: 0;
 }
 
+body{
+  font-size: 15px;
+}
+
 *:focus {
     outline: 0;
     outline-style:none;
@@ -38,7 +43,7 @@ textarea:focus, input:focus{
 }
 
 #header{
-  padding: 0;
+  @include width;
   #navigation{
     position: relative;
     float: left;
@@ -65,6 +70,26 @@ textarea:focus, input:focus{
   max-width: 100%;
   padding: 0;
   width: 100%;
+}
+
+.pink-line{
+  position: absolute;
+  background-color: $pink;
+  width: 50%;
+  left: 0;
+  height: 33px;
+  z-index: -1;
+  &:after{
+    content:""; 
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 33px 33px 0 0;
+    border-color: $pink transparent transparent transparent;
+    display: block;
+    position: absolute;
+    right: -33px;
+  }
 }
 /********** front ****************/
 
