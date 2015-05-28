@@ -92,6 +92,16 @@ img{
 .block{
   margin-bottom: 0;
 }
+
+.phone a{
+    pointer-events: none;
+    cursor: default; 
+    color: $default;
+    @include res(s-m){
+      pointer-events: auto;
+      cursor: pointer;    
+    }
+}
 /********** top - footer ****************/
 
 #header{
@@ -158,12 +168,24 @@ img{
     padding: 6px 3%  31px;
     a{
       color: $orange;
+      &:hover{
+        color: $orange-h;
+      }
     }
     #block-block-1{
       float: right;
+      @include res(s-m){
+        width: 100%;
+        text-align: center;
+      }
     }
     #block-block-2{
       float: left;
+      @include res(s-m){
+        width: 100%;
+        text-align: center;
+        margin: 20px 0 20px;
+      }
       img{
         margin: 0 0 -4px 13px;
       }
@@ -241,13 +263,12 @@ img{
     @include button;
   }
   .region-content-bottom{
-    background: url("../images/seperate.png") no-repeat scroll center top transparent;
-    background-size: 100%;
+    background: url("../images/Seperate.png") no-repeat scroll center top transparent;
     opacity: 0.8;
     margin-top: 30px;
     #block-views-services-block-1{
       position: relative;
-      top: 50px;
+      top: 60px;
       background-color: $orange;
       padding: 0px 3% 63px;
       overflow: hidden;
@@ -265,6 +286,10 @@ img{
           float: right;
           width: 23%;
           margin-bottom: 30px;
+          @include res(s-m){
+            padding: 0;
+            width: 100%;
+          }
           a{
             color: #fff;
             font-size: 1.5em;
@@ -272,6 +297,9 @@ img{
             border-bottom: 1px solid #fff;
             padding: 103px 0 5px;
             display: block;
+            @include res(s-m){
+              border: none;
+            }
           }
         }
         .views-row-1{
