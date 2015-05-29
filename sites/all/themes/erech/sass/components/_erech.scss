@@ -46,8 +46,9 @@ $orange-h: #ffaf66;
 
 
 
-/********** global ****************/
-
+/**************************************************
+                    global  
+**************************************************/
 a, a:link, a:visited{
   text-decoration: none;
   outline: 0;
@@ -102,8 +103,19 @@ img{
       cursor: pointer;    
     }
 }
-/********** top - footer ****************/
 
+.title{
+  background-color: $pink;
+  #page-title{
+    @include width;
+    color: $title-orange;
+    font-size: 3em;
+    font-weight: bold;
+  }
+}
+/**************************************************
+                    top   
+**************************************************/
 #header{
   @include width;
   #navigation{
@@ -159,6 +171,10 @@ img{
   }
 }
 
+/**************************************************
+                    footer 
+**************************************************/
+
 .wrapper-bottom{
   background-color: #4d4d4d;
   overflow: hidden;
@@ -195,8 +211,9 @@ img{
     }
   }
 }
-/********** main menu ****************/
-
+/**************************************************
+                    main menu   
+**************************************************/
 #main-menu{
   margin-top: 30px;
   a{
@@ -207,6 +224,7 @@ img{
       border-radius: 7px;
       color: #fff;
       background-image: none!important;
+      padding-bottom: 2px;
     }
     &.active{
       background: url("../images/menu-circle.png") no-repeat scroll center bottom transparent;
@@ -218,7 +236,27 @@ img{
   }
 }
 
-/********** front ****************/
+
+/**************************************************
+                   sidebar  
+**************************************************/
+
+.sidebar-first .region-sidebar-first {
+    margin-left: 0!important;
+    margin-right: 0!important;
+    width: 25%!important;
+}
+
+.sidebar-first #content {
+    float: left!important;
+    margin-left: 0!important;
+    margin-right: 0!important;
+    width: 75%!important;
+}
+
+/**************************************************
+                   front  
+**************************************************/
 
 .front-image .gray-line{
   background-color: #cbcbcb;
@@ -298,7 +336,6 @@ img{
               }
           }
           @include res(s-m){
-            padding: 0;
             width: 100%;
           }
           a{
@@ -353,37 +390,4 @@ img{
   }
 }
 
-/********* responsive menu  *********/
-
-
-.menu-right, #mmenu_right{
-  display: none;
-  @include res(s-m){
-    display: block;
-  }
-}
-
-
-.menu-right{
-  position: absolute;
-  right: 0;
-  top: 27px;
-  @include res(s-m){
-    top: 22px;
-  }
-      span {
-        display: block;
-        height: 8px;
-        margin-bottom: 10px;
-        margin-top: 0!important;
-        background-color: #9e9d9e;
-        border-radius: 0;
-        width: 43px;
-        @include res(s){
-          height: 5px;
-          margin-bottom: 5px;
-          width: 39px;
-        }
-      }
-}
 

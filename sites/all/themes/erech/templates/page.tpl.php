@@ -11,8 +11,6 @@
 <div class="pink-line"></div>
 
 <div id="page">
-  <a href="#mmenu_right" class="menu-right"><span></span><span></span><span></span></a>
-
   <header class="header" id="header" role="banner">
 
     <?php if ($logo): ?>
@@ -78,6 +76,12 @@
     </div>
   </header>
 
+      <?php if ($title): ?>
+        <div class="title">
+        <h1 class="page__title title" id="page-title"><?php print $title; ?></h1>
+        </div>
+      <?php endif; ?>
+      
   <div id="main">
 
     <div id="content" class="column" role="main">
@@ -85,9 +89,7 @@
       <?php print $breadcrumb; ?>
       <a id="main-content"></a>
       <?php print render($title_prefix); ?>
-      <?php if ($title): ?>
-        <h1 class="page__title title" id="page-title"><?php print $title; ?></h1>
-      <?php endif; ?>
+
       <?php print render($title_suffix); ?>
       <?php print $messages; ?>
       <?php print render($tabs); ?>
