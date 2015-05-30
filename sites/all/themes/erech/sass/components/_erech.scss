@@ -73,11 +73,6 @@ body{
     outline-width:0;
 }
 
-#wrapper-main{
-  overflow: hidden;
-  background: url("../images/texture.jpg") repeat scroll center bottom transparent;
-}
-
 #main{
   @include width;
   #content{
@@ -223,12 +218,20 @@ img{
     @include width;
     .block{
       width: 21%;
+      float: right;
       padding-left: 5.3%;
     }
     #block-webform-client-block-67{
       padding-left: 0;
     }
   }
+}
+
+.bx-wrapper .bx-viewport {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    left: 0;
 }
 /**************************************************
                     main menu   
@@ -263,16 +266,35 @@ img{
 .sidebar-first .region-sidebar-first {
     margin-left: 0!important;
     margin-right: 0!important;
-    width: 25%!important;
+    width: 15%!important;
 }
 
 .sidebar-first #content {
     float: left!important;
     margin-left: 0!important;
     margin-right: 0!important;
-    width: 75%!important;
+    width: 85%!important;
+    border-right: 10px solid #cbcbcb;
+    padding-bottom: 50px!important;
+    padding-right: 30px!important;
 }
 
+.region-sidebar-first{
+  padding-right: 0;
+  ul{
+    padding: 0;
+  }
+  li{
+    list-style-type: none!important;
+    list-style-image: none!important;
+    margin: 0!important;
+  }
+  a{
+    color: $orange;
+    font-size: 1.5em;
+    line-height: 1.2em;
+  }
+}
 /**************************************************
                    front  
 **************************************************/
@@ -292,6 +314,7 @@ img{
     width: 100%;
     padding: 0;
     overflow: hidden;
+    background: url("../images/texture.jpg") repeat scroll center bottom transparent;
   }
   .article-wrapper{
     article{
