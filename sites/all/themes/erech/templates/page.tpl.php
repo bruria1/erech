@@ -81,6 +81,7 @@
         <h1 class="page__title title" id="page-title"><?php print $title; ?></h1>
         </div>
       <?php endif; ?>
+  <div id="wrapper-main">
       
   <div id="main">
 
@@ -118,9 +119,10 @@
     <?php endif; ?>
 
   </div>
-
+</div>
+<div class="footer-wrapper">
   <?php print render($page['footer']); ?>
-
+</div>
 </div>
 <div class="wrapper-bottom">
   <?php print render($page['bottom']); ?>

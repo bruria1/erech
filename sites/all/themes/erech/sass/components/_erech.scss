@@ -73,6 +73,11 @@ body{
     outline-width:0;
 }
 
+#wrapper-main{
+  overflow: hidden;
+  background: url("../images/texture.jpg") repeat scroll center bottom transparent;
+}
+
 #main{
   @include width;
   #content{
@@ -211,6 +216,20 @@ img{
     }
   }
 }
+
+.footer-wrapper{
+  background-color: #333;
+  #footer{
+    @include width;
+    .block{
+      width: 21%;
+      padding-left: 5.3%;
+    }
+    #block-webform-client-block-67{
+      padding-left: 0;
+    }
+  }
+}
 /**************************************************
                     main menu   
 **************************************************/
@@ -272,7 +291,6 @@ img{
     max-width: 100%;
     width: 100%;
     padding: 0;
-    background: url("../images/texture.jpg") repeat scroll center bottom transparent;
     overflow: hidden;
   }
   .article-wrapper{
@@ -390,4 +408,28 @@ img{
   }
 }
 
+/**************************************************
+                   page  
+**************************************************/
 
+.field-name-field-gallery{
+  .field-item{
+    width: 30%;
+    margin-left: 3%;
+    border:1px solid;
+    float: right;
+    margin-bottom: 20px;
+  }
+}
+
+.field-name-field-image{
+  float: left;
+}
+
+/**************************************************
+                   newsletter  
+**************************************************/
+
+.field-name-field-pdf{
+  display: none;
+}
