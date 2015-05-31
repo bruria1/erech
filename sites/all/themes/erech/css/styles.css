@@ -2855,7 +2855,7 @@ img {
   width: 100%;
 }
 /* line 949, ../sass/components/_erech.scss */
-.page-node-65 .webform-component-checkboxes label.in-field-labels-processed {
+.page-node-65 .webform-component-checkboxes label {
   position: relative !important;
   padding-right: 0;
   font-weight: bold;
