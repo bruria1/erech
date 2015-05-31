@@ -135,6 +135,7 @@ img{
     padding: 0;
   } 
   #logo{
+    max-width: 40%;
     float: right;
     padding: 11px 0 16px;
   }
@@ -171,12 +172,18 @@ img{
     padding-right: 10px;
     margin: 4px 0;
     float: left;
+    @include res(s-m){
+      padding-top: 5px;
+    }
   }
   .email{
     background: url("../images/email.png") no-repeat scroll left center transparent;
     padding: 0 10px 0 27px;
     margin: 4px 0;
     float: left;
+    @include res(s-m){
+      clear: left;
+    }
   }
 }
 
@@ -318,6 +325,9 @@ img{
 .news-wrapper{
     background-color: #4d4d4d;
     overflow: hidden;
+    @include res(s-m){
+      display: none;
+    }
     #block-views-news-block{
       @include width;
       color: #e6e6e6;
@@ -395,7 +405,14 @@ img{
   }
 }
 
-
+.mean-nav{
+  li{
+    padding: 0!important;
+    a{
+      text-align: center!important;
+    }
+  }
+}
 /**************************************************
                    sidebar  
 **************************************************/
@@ -427,12 +444,18 @@ img{
   }
   ul{
     padding: 0;
+    @include res(s-m){
+      margin: 0;
+    }
   }
   li{
     list-style-type: none!important;
     list-style-image: none!important;
     margin: 0!important;
     padding: 0 0 2px 0;
+  }
+  li.last{
+    padding: 0;
   }
   .views-row{
       padding: 0 0 2px 0;
@@ -445,11 +468,17 @@ img{
     display: block;
     width: 100%;
     padding-left: 10px;
+    @include res(s-m){
+        text-align: center;
+    }
   }
   .is-active a, li:hover a, a.active, a:hover{
     background-color: $orange;
     color: #fff;
     border-radius: 0 7px 7px 0;
+    @include res(s-m){
+        border-radius: 0;
+    }
   }
   .block-views{
     padding-top: 24px;
@@ -826,10 +855,16 @@ img{
   article{
     width: 70%;
     float: right;
+    @include res(s-m){
+      width: 100%;
+    }
   }
   .region-content-bottom{
     width: 30%;
     float: left;
+        @include res(s-m){
+      width: 100%;
+    }
   }
   .field-name-field-requir{
     p{
