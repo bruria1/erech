@@ -2827,87 +2827,99 @@ img {
   width: 45%;
   float: right;
 }
-/* line 925, ../sass/components/_erech.scss */
+@media (max-width: 767px) {
+  /* line 919, ../sass/components/_erech.scss */
+  .page-node-65 #webform-client-form-65 {
+    width: 100%;
+  }
+}
+/* line 928, ../sass/components/_erech.scss */
 .page-node-65 .webform-component-file label {
   position: relative !important;
   padding-right: 0;
   font-weight: bold;
 }
-/* line 930, ../sass/components/_erech.scss */
+/* line 933, ../sass/components/_erech.scss */
 .page-node-65 .webform-component-file input {
   padding: 0;
   width: auto;
 }
-/* line 934, ../sass/components/_erech.scss */
+/* line 937, ../sass/components/_erech.scss */
 .page-node-65 .webform-component-file input.form-submit {
   width: auto;
   float: right;
   padding: 5px 10px;
 }
-/* line 940, ../sass/components/_erech.scss */
+/* line 943, ../sass/components/_erech.scss */
 .page-node-65 input, .page-node-65 textarea {
   border: 1px solid #666666;
   border-radius: 7px;
   width: 100%;
 }
-/* line 945, ../sass/components/_erech.scss */
+/* line 948, ../sass/components/_erech.scss */
 .page-node-65 .webform-component-textfield, .page-node-65 .webform-component-email {
   width: 100%;
 }
-/* line 949, ../sass/components/_erech.scss */
+/* line 952, ../sass/components/_erech.scss */
 .page-node-65 .webform-component-checkboxes label {
   position: relative !important;
   padding-right: 0;
   font-weight: bold;
 }
-/* line 954, ../sass/components/_erech.scss */
+/* line 957, ../sass/components/_erech.scss */
 .page-node-65 .webform-component-checkboxes input {
   width: 20px;
 }
-/* line 957, ../sass/components/_erech.scss */
+/* line 960, ../sass/components/_erech.scss */
 .page-node-65 .webform-component-checkboxes label.option {
   font-weight: normal;
   position: absolute !important;
   padding-right: 10px;
 }
-/* line 962, ../sass/components/_erech.scss */
+/* line 965, ../sass/components/_erech.scss */
 .page-node-65 .webform-component-checkboxes .form-type-checkbox {
   width: 45%;
   float: right;
   margin: 0;
   height: 24px;
 }
-/* line 969, ../sass/components/_erech.scss */
+/* line 972, ../sass/components/_erech.scss */
 .page-node-65 .grippie {
   display: none;
 }
-/* line 972, ../sass/components/_erech.scss */
+/* line 975, ../sass/components/_erech.scss */
 .page-node-65 .form-actions {
   clear: both;
 }
-/* line 975, ../sass/components/_erech.scss */
+/* line 978, ../sass/components/_erech.scss */
 .page-node-65 input.form-submit {
   border: 1px solid #ef8f3b;
   float: left;
   width: 100%;
 }
 @media (max-width: 767px) {
-  /* line 975, ../sass/components/_erech.scss */
+  /* line 978, ../sass/components/_erech.scss */
   .page-node-65 input.form-submit {
     width: 100%;
   }
 }
-/* line 983, ../sass/components/_erech.scss */
+/* line 986, ../sass/components/_erech.scss */
 .page-node-65 .webform-component-textarea {
   clear: both;
   padding-top: 30px;
 }
 
-/* line 989, ../sass/components/_erech.scss */
+/* line 992, ../sass/components/_erech.scss */
 .customer {
   float: left;
   width: 45%;
   padding-top: 23px;
+}
+@media (max-width: 767px) {
+  /* line 992, ../sass/components/_erech.scss */
+  .customer {
+    width: 100%;
+  }
 }
 
 /**

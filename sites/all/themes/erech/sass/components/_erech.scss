@@ -920,6 +920,9 @@ img{
     position: relative;
     width: 45%;
     float: right;
+    @include res(s-m){
+      width: 100%;
+    }
   }
   .webform-component-file{
     label{
@@ -990,4 +993,7 @@ img{
   float: left;
   width: 45%;
   padding-top: 23px;
+  @include res(s-m){
+      width: 100%;
+  }
 }
