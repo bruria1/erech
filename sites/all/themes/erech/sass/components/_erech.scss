@@ -16,6 +16,9 @@
   @if $media == s-m {
     @media (max-width: 767px) { @content; }
   }
+    @if $media == l {
+    @media (min-width: 768px) and (max-width: 1024px) { @content; }
+  }
 }
 
 $pink: #ffefe1;
@@ -135,7 +138,7 @@ img{
     padding: 0;
   } 
   #logo{
-    max-width: 40%;
+    max-width: 36%;
     float: right;
     padding: 11px 0 16px;
   }
@@ -271,6 +274,14 @@ img{
           display: none;
         }
       }
+    #block-menu-block-3{
+      h2{
+        display: none;
+      }
+      li{
+        display: inline;
+      }
+    }
     .block-menu-block{
       h2{
         padding-right: 16px;
@@ -285,6 +296,7 @@ img{
         @include res(s-m){
           border: none;
           padding: 0;
+          text-align: center;
         }
       }
       li{
@@ -305,6 +317,7 @@ img{
         border-radius: 7px 0 0 7px;
         @include res(s-m){
           background-color: transparent;
+          display: inline;
         }
       }
     }
@@ -384,10 +397,14 @@ img{
                     main menu   
 **************************************************/
 #main-menu{
-  margin-top: 30px;
+  margin-top: 34px;
   a{
     font-size: 1.5em;
-    padding: 0px 10px;
+    padding: 0px 9px;
+    @include res(l){
+      font-size: 1em;
+      padding: 0 3px;
+    }
     &:hover{
       background-color: $title-orange!important;
       border-radius: 7px;
@@ -404,6 +421,16 @@ img{
     padding: 0 10px 0 0!important;
   }
 }
+
+@media (min-width: 1025px) and (max-width: 1126px) { 
+  #main-menu{
+    a{
+      padding: 0 3px;
+      font-size: 1.3em;
+    }
+  }
+}
+
 
 .mean-nav{
   li{
@@ -427,6 +454,11 @@ img{
     padding-right: 30px!important;
     @include res(s-m){
       width: 100%!important;
+      padding-right: 0!important;
+    }
+    img{
+      margin: 0 auto;
+      display: block;
     }
 }
 
@@ -437,7 +469,7 @@ img{
   @include res(s-m){
       width: 100%!important;
       border:1px solid #b5b5b5;
-      margin-top: 10px;
+      margin: 10px 0;
       li{
         text-align: center;
       }
@@ -639,6 +671,18 @@ img{
     border:1px solid;
     float: right;
     margin-bottom: 20px;
+    @include res(l){
+      width: 47%;
+      margin-left: 2%;
+    }
+   @include res(m){
+      width: 47%;
+      margin-left: 2%;
+    }
+    @include res(s){
+      width: 100%;
+      margin: 0 0 20px 0;
+    }
   }
 }
 
@@ -700,6 +744,9 @@ img{
     margin: 0 3% 30px 0;
     width: 57%;
     box-sizing: border-box;
+    @include res(s-m){
+      display: none;
+    }
   }
   .field-name-body{
     clear: both;
@@ -707,6 +754,9 @@ img{
   .field-type-text{
     width: 40%;
     float: right;
+    @include res(s-m){
+      width: 100%;
+    }
   }
   .field-name-field-link-site{
     margin-top: 10px;
@@ -729,6 +779,14 @@ img{
     text-align: center;
     border-radius: 3px;
     margin-bottom: 30px;
+    @include res(s-m){
+      width: 100%;
+      margin: 0 0 30px 0;
+    }
+    @include res(l){
+      width: 48%;
+      margin-left: 2%;
+    }
   }
   .views-field-title{
     font-size: 2em;
@@ -738,11 +796,17 @@ img{
     @include button;
   }
   .views-field-body{
-    height: 215px;
+    height: 243px;
+    @include res(s-m){
+      height: auto;
+    }
   }
   .views-field-field-teaser{
     margin: 20px 0;
-    height: 75px;
+    height: 103px;
+    @include res(s-m){
+      height: auto;
+    }
   }
 }
 
