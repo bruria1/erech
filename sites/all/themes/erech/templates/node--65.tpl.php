@@ -7,6 +7,7 @@
  * @see https://drupal.org/node/1728164
  */
 ?>
+
 <article class="node-<?php print $node->nid; ?> <?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 
   <?php if ($title_prefix || $title_suffix || $display_submitted || $unpublished || !$page && $title): ?>
@@ -29,23 +30,23 @@
       <?php endif; ?>
     </header>
   <?php endif; ?>
-
-
+  <h1><div class="about-title">מי אנחנו</div></h1>
   <?php
-  
     // We hide the comments and links now so that we can render them later.
     hide($content['comments']);
     hide($content['links']);
     print render($content);
   ?>
-  <div class="pdf-link">
-  <?php if (render($content['field_pdf'])) { ?>
-    <?php $file = file_load($node->field_pdf['und'][0]['fid']); ?>
-    <a target="_blank" href="<?php print file_create_url($file->uri); ?>">לקריאת הכתבה המקורית לחץ כאן</a>
-  <?php } ?>
-</div>
+
   <?php print render($content['links']); ?>
 
   <?php print render($content['comments']); ?>
+
+    <div class="customer">
+      <?php
+          $my_block = module_invoke('views', 'block_view', 'text_site-block');
+          print render($my_block['content']); 
+        ?>
+  </div>
 
 </article>

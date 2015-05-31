@@ -8,7 +8,9 @@ function webform_nid_form_alter(&$form, $form_state, $form_id) {
   if ($form_id == 'webform_client_form_63') {
     if ($node = menu_get_object()) {
       $form['submitted']['job_title']['#value'] = $node->title;
+      $form['submitted']['emailsend']['#value'] = $node->field_mail_job['und']['0']['email'];
     }
   }
 }
 ?>
+

@@ -73,10 +73,18 @@ body{
     outline-width:0;
 }
 
+#wrapper-main{
+    background-color: #f0f0f0;
+}
+
+
 #main{
   @include width;
   #content{
-    padding: 0;
+    padding: 0 2%;
+    background-color: #fff;
+    padding-bottom: 30px;
+    overflow: hidden;
   }
 }
 
@@ -105,12 +113,13 @@ img{
 }
 
 .title{
-  background-color: $pink;
+  padding-top: 5px;
   #page-title{
     @include width;
     color: $title-orange;
     font-size: 3em;
     font-weight: bold;
+    padding-right: 0;
   }
 }
 /**************************************************
@@ -213,90 +222,144 @@ img{
 }
 
 .footer-wrapper{
-  background-color: #333;
-  /*
-      background-image: -ms-linear-gradient(to left, #f6f6f6 50%, #333 50%);
-      background-image: -moz-linear-gradient(to left, #f6f6f6 50%, #333 50%);
-      background-image: -o-linear-gradient(to left, #f6f6f6 50%, #333 50%);
-      background-image: -webkit-gradient(linear, left top, right top, color-stop(0.5, #f6f6f6), color-stop(0.5, #333));
-      background-image: -webkit-linear-gradient(to left, #f6f6f6 50%, #333 50%);
-      background-image: linear-gradient(to right, #f6f6f6 50%, #333 50%);      
-      overflow: hidden;*/
+  background-color: #1a1a1a;
+  padding-bottom: 20px;
   #footer{
     @include width;
     .block{
       float: right;
+      width: 25%;
+      padding-left: 3%;
+      box-sizing: border-box;
+      padding-top: 17px;
+      @include res(s-m){
+        width: 100%;
+        padding: 0;
+      }
+      h2{
+        color: #fff;
+        font-weight: normal;
+        @include res(s-m){
+          text-align: center;
+        }
+      }
     }
     #block-webform-client-block-67{
-      width: 21%;
-      padding-right: 15%;
+      padding-left: 0%;
       padding-top: 21px;
-      input{
-        height: 37px;
-        border-radius: 7px;
-        border:none;
-        padding: 5px 10px;
-      }
-      input:focus{
-        border: 2px solid $orange;
-      }
-      label{
-        font-weight: normal;
-        padding: 5px 10px;
-      }
-      .form-required{
-        display: none;
-      }
-      .form-submit{
-        @include button;
+      @include res(s-m){
         width: 100%;
+        padding:0;
+        margin-bottom: 30px;
       }
-      .form-item{
-        margin: 12px 0 ;
+      .webform-component--name{
+        margin-top: 0;
       }
     }
+      #block-menu-block-2{
+        @include res(s-m){
+          display: none;
+        }
+      }
     .block-menu-block{
-      width: 12%;
+      h2{
+        padding-right: 16px;
+        @include res(s-m){
+          padding: 0;
+        }
+      }
       ul{
-        padding: 0;
+        padding-right: 10px;
+        margin: -5px 0 0 0;
+        border-right: 3px solid #4d4d4d;
+        @include res(s-m){
+          border: none;
+          padding: 0;
+        }
       }
       li{
         list-style-image: none;
         list-style-type: none;
+        margin: 0;
+        @include res(s-m){
+          text-align: center;
+        }
       }
       a{
         color: #fff;
+        padding-right: 4px;
+      }
+      li.is-active a , li:hover a{
+        background-color: #4d4d4d;
+        display: block;
+        border-radius: 7px 0 0 7px;
+        @include res(s-m){
+          background-color: transparent;
+        }
       }
     }
-    #block-menu-block-3{
-      padding-left: 11%;
-    }
-    #block-views-news-block{
-      width: 21%;
+    #block-views-text-site-block-1{
       padding-left: 8%;
+      float: right;
       color: #fff;
-      padding-top: 8px;
+      @include res(s-m){
+        display: none;
+      }
+      p{
+        margin: 0;
+      }
+    }
+  }
+}
+
+.news-wrapper{
+    background-color: #4d4d4d;
+    overflow: hidden;
+    #block-views-news-block{
+      @include width;
+      color: #e6e6e6;
       a{
         color: #fff;
-        font-weight: bold;
       }
       h2{
         float: right;
         padding-top: 9px;
         padding-left: 16px;
       }
-      .view-content{
-        clear: both;
+
+      .view-footer{
+        p{
+          margin: 0;
+        }
+        a{
+          color: #fff;
+          font-weight: normal;
+          background-color: #808080;
+          border-radius: 7px;
+          padding: 2px 10px;
+          float: left;
+          margin: 10px 0;
+        }
       }
       ul{
         padding: 0;
+        margin: 0;
       }
       li{
         margin-bottom: 20px;
       }
+      .views-slideshow-cycle-main-frame-row{
+        left: auto!important;
+        float: right;
+        width: 100%!important;
+      }
+      .views-slideshow-cycle-main-frame{
+        width: 80%!important;
+        float: right;
+        margin: 10px 0;
+      }
     }
   }
-}
 
 .bx-wrapper .bx-viewport {
     background: transparent;
@@ -334,25 +397,31 @@ img{
                    sidebar  
 **************************************************/
 
-.sidebar-first .region-sidebar-first {
-    margin-left: 0!important;
-    margin-right: 0!important;
-    width: 15%!important;
-}
 
 .sidebar-first #content {
     float: left!important;
     margin-left: 0!important;
     margin-right: 0!important;
-    width: 85%!important;
-    border-right: 10px solid #cbcbcb;
+    width: 80%!important;
     padding-bottom: 50px!important;
     padding-right: 30px!important;
+    @include res(s-m){
+      width: 100%!important;
+    }
 }
 
 .region-sidebar-first{
   padding-right: 0;
-  padding-top: 21px;
+  margin-left: 0!important;
+  width: 20%!important;
+  @include res(s-m){
+      width: 100%!important;
+      border:1px solid #b5b5b5;
+      margin-top: 10px;
+      li{
+        text-align: center;
+      }
+  }
   ul{
     padding: 0;
   }
@@ -360,13 +429,34 @@ img{
     list-style-type: none!important;
     list-style-image: none!important;
     margin: 0!important;
+    padding: 0 0 2px 0;
+  }
+  .views-row{
+      padding: 0 0 2px 0;
   }
   a{
     color: $orange;
-    font-size: 1.5em;
-    line-height: 1.5em;
+    font-size: 1.2em;
+    line-height: 2em;
+    text-align: left;
+    display: block;
+    width: 100%;
+    padding-left: 10px;
+  }
+  .is-active a, li:hover a, a.active, a:hover{
+    background-color: $orange;
+    color: #fff;
+    border-radius: 0 7px 7px 0;
+  }
+  .block-views{
+    padding-top: 24px;
   }
 }
+
+.no-sidebars #content{
+  background-color: #fff!important;
+}
+
 /**************************************************
                    front  
 **************************************************/
@@ -517,9 +607,16 @@ img{
   }
 }
 
-.field-name-field-image{
+.field-name-field-image, .field-name-field-service-image{
   float: left;
   margin: 0 30px 30px 0;
+  @include res(s-m){
+    width: 100%;
+    img{
+      margin: 0 auto;
+      display: block;
+    }
+  }
 }
 
 /**************************************************
@@ -530,16 +627,361 @@ img{
   display: none;
 }
 
+#block-views-newsletter-block-1{
+  .views-field-title{
+    font-size: 2em;
+    color: $orange;
+    margin-bottom: 10px;
+  }
+  .views-field-view-node{
+    text-align: left;
+    font-weight: bold;
+  }
+  .views-row{
+    border-bottom: 1px solid $orange;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  .views-row-last{
+    border-bottom: none;
+  }
+}
+
+.node-type-newsletter{
+  .pdf-link {
+    margin-top: 20px;
+    a{
+      @include button;
+    }
+  }
+}
 /**************************************************
-                   subsidiary  
+                   subsidiary & services 
 **************************************************/
 
 .node-type-subsidiary{
   .field-name-field-lat-lng{
-      float: left;
-    margin: 0 30px 30px 0;
+    float: left;
+    margin: 0 3% 30px 0;
+    width: 57%;
+    box-sizing: border-box;
   }
   .field-name-body{
     clear: both;
   }
+  .field-type-text{
+    width: 40%;
+    float: right;
+  }
+  .field-name-field-link-site{
+    margin-top: 10px;
+    float: right;
+    a{
+      @include button;
+      background-color: #c8c8c8;
+    }
+  }
+}
+
+#block-views-subsidiary-block, #block-views-services-block{
+  .views-row{
+    float: right;
+    width: 30%;
+    margin-left: 3%;
+    border: 1px solid #9f9f9f;
+    padding: 20px;
+    box-sizing:border-box;
+    text-align: center;
+    border-radius: 3px;
+    margin-bottom: 30px;
+  }
+  .views-field-title{
+    font-size: 2em;
+    color: $title-orange;
+  }
+  .views-field-view-node a{
+    @include button;
+  }
+  .views-field-body{
+    height: 215px;
+  }
+  .views-field-field-teaser{
+    margin: 20px 0;
+    height: 75px;
+  }
+}
+
+#block-webform-client-block-61{
+  position: relative;
+  input, textarea{
+    border:1px solid $default;
+    border-radius: 7px;
+  }
+  .webform-component-textfield, .webform-component-email{
+    float: right;
+    margin: 5px 0 5px 4%;
+    width: 48%;
+    @include res(s-m){
+      width: 100%
+    }
+  }
+  .webform-component-textarea{
+    float: left;
+    width: 48%;
+    left: 0;
+    position: absolute;
+    margin-top: 5px;
+    @include res(s-m){
+      width: 100%;
+      position: relative;
+    }
+  }
+  .webform-component--service, .grippie{
+    display: none;
+  }
+  .form-actions{
+    clear: both;
+  }
+  input.form-submit{
+    border: 1px solid $orange;
+    float: left;
+    width: 48%;
+    @include res(s-m){
+      width: 100%;
+    }
+  }
+}
+/**************************************************
+                   team  
+**************************************************/
+
+#block-views-team-block{
+  .views-field-field-team-image{
+    float: right;
+    width: 200px;
+    max-width: 30%;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    img{
+      border:1px solid #b5b5b5;
+      padding: 5px;
+    }
+    @include res(s-m){
+      width: 100%;
+      max-width: 100%;
+      margin: 0;
+      img{
+        margin: 0 auto 30px;
+        display: block;
+      }
+    }
+  }
+  .views-row {
+    clear: both;
+    @include res(s-m){
+      text-align: center;
+    }
+  }
+  .views-field-field-role{
+    font-size: 2em;
+    color: $title-orange;
+    padding-bottom: 30px;
+    display: block;
+  }
+}
+
+/**************************************************
+                   jobs  
+**************************************************/
+
+#block-views-jobs-block{
+  .views-field-title a{
+    color: $title-orange;
+    font-size: 1.7em;
+  }
+  .views-field-view-node{
+    text-align: left;
+    margin-top: 20px;
+    a{
+      font-weight: bold;
+    }
+  }
+  .views-row{
+    border-bottom: 1px solid #b5b5b5;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+  }
+  .views-row-last{
+    border: none;
+  }
+}
+
+.node-type-job{
+  article{
+    width: 70%;
+    float: right;
+  }
+  .region-content-bottom{
+    width: 30%;
+    float: left;
+  }
+  .field-name-field-requir{
+    p{
+      margin: 0;
+    }
+  }
+}
+
+#block-webform-client-block-63{
+  .webform-component--job-title, .webform-component--emailsend{
+    display: none;
+  }
+  .webform-component-file{
+    label{
+      position: relative;
+      padding-right: 0;
+      font-weight: bold;
+    }
+    input{
+      padding: 0;
+    }
+    input.form-submit{
+      width: auto;
+      float: left;
+      padding: 5px 10px;
+    }
+  }
+}
+
+/**************************************************
+                   webform  
+**************************************************/
+
+.block-webform, .webform-client-form{
+  input{
+    height: 37px;
+    border-radius: 7px;
+    border:1px solid #f0f0f0;
+    padding: 5px 10px;
+    @include res(s-m){
+      width: 100%;
+    }
+  }
+  input:focus{
+    border: 2px solid $orange;
+  }
+  label{
+    font-weight: normal;
+    padding: 5px 10px;
+  }  
+  .form-required{
+    display: none;
+  }
+  .form-submit{
+    @include button;
+    width: 100%;
+  }
+  .form-item{
+    margin: 12px 0 ;
+  }
+}
+
+/**************************************************
+                   custonmer  
+**************************************************/
+
+#block-views-customer-block{
+  h3{
+    text-align: center;
+    font-size: 2em;
+    clear: both;
+    padding: 55px 0 0px;
+    display: block;
+  }
+  .views-row{
+    width: 18%;
+    margin-left: 2%;
+    float: right;
+  }
+}
+
+/**************************************************
+                   contant  
+**************************************************/
+
+.page-node-65{
+  #webform-client-form-65{
+    position: relative;
+    width: 45%;
+    float: right;
+  }
+  .webform-component-file{
+    label{
+      position: relative!important;
+      padding-right: 0;
+      font-weight: bold;
+    }
+    input{
+      padding: 0;
+      width: auto;
+    }
+    input.form-submit{
+      width: auto;
+      float: right;
+      padding: 5px 10px;
+    }
+  }
+  input, textarea{
+    border:1px solid $default;
+    border-radius: 7px;
+    width: 100%;
+  }
+  .webform-component-textfield, .webform-component-email{
+      width: 100%
+  }
+  .webform-component-checkboxes{
+    label.in-field-labels-processed{
+      position: relative!important;
+      padding-right: 0;
+      font-weight: bold;
+    }
+    input{
+      width: 20px;
+    }
+    label.option{
+      font-weight: normal;
+      position: absolute!important;
+      padding-right: 10px;
+    }
+    .form-type-checkbox{
+      width: 45%;
+      float: right;
+      margin: 0;
+      height: 24px;
+    }
+  }
+  .grippie{
+    display: none;
+  }
+  .form-actions{
+    clear: both;
+  }
+  input.form-submit{
+    border: 1px solid $orange;
+    float: left;
+    width: 100%;
+    @include res(s-m){
+      width: 100%;
+    }
+  }
+  .webform-component-textarea{
+    clear: both;
+    padding-top: 30px;
+  }
+}
+
+.customer{
+  float: left;
+  width: 45%;
+  padding-top: 23px;
 }

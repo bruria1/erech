@@ -1739,6 +1739,11 @@ body a {
 }
 
 /* line 76, ../sass/components/_erech.scss */
+#wrapper-main {
+  background-color: #f0f0f0;
+}
+
+/* line 81, ../sass/components/_erech.scss */
 #main {
   width: 1340px;
   max-width: 100%;
@@ -1746,47 +1751,50 @@ body a {
   padding: 0 3%;
   box-sizing: border-box;
 }
-/* line 78, ../sass/components/_erech.scss */
+/* line 83, ../sass/components/_erech.scss */
 #main #content {
-  padding: 0;
+  padding: 0 2%;
+  background-color: #fff;
+  padding-bottom: 30px;
+  overflow: hidden;
 }
 
-/* line 83, ../sass/components/_erech.scss */
+/* line 91, ../sass/components/_erech.scss */
 #page, .region-bottom {
   max-width: 100%;
   padding: 0;
   width: 100%;
 }
 
-/* line 89, ../sass/components/_erech.scss */
+/* line 97, ../sass/components/_erech.scss */
 img {
   margin-bottom: -6px;
 }
 
-/* line 93, ../sass/components/_erech.scss */
+/* line 101, ../sass/components/_erech.scss */
 .block {
   margin-bottom: 0;
 }
 
-/* line 97, ../sass/components/_erech.scss */
+/* line 105, ../sass/components/_erech.scss */
 .phone a {
   pointer-events: none;
   cursor: default;
   color: #666666;
 }
 @media (max-width: 767px) {
-  /* line 97, ../sass/components/_erech.scss */
+  /* line 105, ../sass/components/_erech.scss */
   .phone a {
     pointer-events: auto;
     cursor: pointer;
   }
 }
 
-/* line 107, ../sass/components/_erech.scss */
+/* line 115, ../sass/components/_erech.scss */
 .title {
-  background-color: #ffefe1;
+  padding-top: 5px;
 }
-/* line 109, ../sass/components/_erech.scss */
+/* line 117, ../sass/components/_erech.scss */
 .title #page-title {
   width: 1340px;
   max-width: 100%;
@@ -1796,12 +1804,13 @@ img {
   color: #d56625;
   font-size: 3em;
   font-weight: bold;
+  padding-right: 0;
 }
 
 /**************************************************
                     top   
 **************************************************/
-/* line 119, ../sass/components/_erech.scss */
+/* line 128, ../sass/components/_erech.scss */
 #header {
   width: 1340px;
   max-width: 100%;
@@ -1809,7 +1818,7 @@ img {
   padding: 0 3%;
   box-sizing: border-box;
 }
-/* line 121, ../sass/components/_erech.scss */
+/* line 130, ../sass/components/_erech.scss */
 #header #navigation {
   position: relative;
   float: left;
@@ -1817,18 +1826,18 @@ img {
   clear: left;
   padding: 0;
 }
-/* line 128, ../sass/components/_erech.scss */
+/* line 137, ../sass/components/_erech.scss */
 #header #logo {
   float: right;
   padding: 11px 0 16px;
 }
-/* line 132, ../sass/components/_erech.scss */
+/* line 141, ../sass/components/_erech.scss */
 #header .region-header {
   float: left;
   clear: none;
 }
 
-/* line 138, ../sass/components/_erech.scss */
+/* line 147, ../sass/components/_erech.scss */
 .pink-line {
   position: absolute;
   background-color: #ffefe1;
@@ -1837,7 +1846,7 @@ img {
   height: 33px;
   z-index: -1;
 }
-/* line 145, ../sass/components/_erech.scss */
+/* line 154, ../sass/components/_erech.scss */
 .pink-line:after {
   content: "";
   width: 0;
@@ -1850,7 +1859,7 @@ img {
   right: -33px;
 }
 
-/* line 159, ../sass/components/_erech.scss */
+/* line 168, ../sass/components/_erech.scss */
 #block-block-3 .phone {
   background: url("../images/phone.png") no-repeat scroll left center transparent;
   padding-left: 27px;
@@ -1858,7 +1867,7 @@ img {
   margin: 4px 0;
   float: left;
 }
-/* line 166, ../sass/components/_erech.scss */
+/* line 175, ../sass/components/_erech.scss */
 #block-block-3 .email {
   background: url("../images/email.png") no-repeat scroll left center transparent;
   padding: 0 10px 0 27px;
@@ -1869,12 +1878,12 @@ img {
 /**************************************************
                     footer 
 **************************************************/
-/* line 178, ../sass/components/_erech.scss */
+/* line 187, ../sass/components/_erech.scss */
 .wrapper-bottom {
   background-color: #4d4d4d;
   overflow: hidden;
 }
-/* line 181, ../sass/components/_erech.scss */
+/* line 190, ../sass/components/_erech.scss */
 .wrapper-bottom .region-bottom {
   width: 1340px;
   max-width: 100%;
@@ -1884,59 +1893,52 @@ img {
   color: #fff;
   padding: 6px 3%  31px;
 }
-/* line 185, ../sass/components/_erech.scss */
+/* line 194, ../sass/components/_erech.scss */
 .wrapper-bottom .region-bottom a {
   color: #ef8f3b;
 }
-/* line 187, ../sass/components/_erech.scss */
+/* line 196, ../sass/components/_erech.scss */
 .wrapper-bottom .region-bottom a:hover {
   color: #ffaf66;
 }
-/* line 191, ../sass/components/_erech.scss */
+/* line 200, ../sass/components/_erech.scss */
 .wrapper-bottom .region-bottom #block-block-1 {
   float: right;
 }
 @media (max-width: 767px) {
-  /* line 191, ../sass/components/_erech.scss */
+  /* line 200, ../sass/components/_erech.scss */
   .wrapper-bottom .region-bottom #block-block-1 {
     width: 100%;
     text-align: center;
   }
 }
-/* line 198, ../sass/components/_erech.scss */
+/* line 207, ../sass/components/_erech.scss */
 .wrapper-bottom .region-bottom #block-block-2 {
   float: left;
 }
 @media (max-width: 767px) {
-  /* line 198, ../sass/components/_erech.scss */
+  /* line 207, ../sass/components/_erech.scss */
   .wrapper-bottom .region-bottom #block-block-2 {
     width: 100%;
     text-align: center;
     margin: 20px 0 20px;
   }
 }
-/* line 205, ../sass/components/_erech.scss */
+/* line 214, ../sass/components/_erech.scss */
 .wrapper-bottom .region-bottom #block-block-2 img {
   margin: 0 0 -4px 13px;
 }
-/* line 209, ../sass/components/_erech.scss */
+/* line 218, ../sass/components/_erech.scss */
 .wrapper-bottom .region-bottom p {
   margin: 0;
 }
 
-/* line 215, ../sass/components/_erech.scss */
+/* line 224, ../sass/components/_erech.scss */
 .footer-wrapper {
-  background-color: #333;
-  /*
-      background-image: -ms-linear-gradient(to left, #f6f6f6 50%, #333 50%);
-      background-image: -moz-linear-gradient(to left, #f6f6f6 50%, #333 50%);
-      background-image: -o-linear-gradient(to left, #f6f6f6 50%, #333 50%);
-      background-image: -webkit-gradient(linear, left top, right top, color-stop(0.5, #f6f6f6), color-stop(0.5, #333));
-      background-image: -webkit-linear-gradient(to left, #f6f6f6 50%, #333 50%);
-      background-image: linear-gradient(to right, #f6f6f6 50%, #333 50%);      
-      overflow: hidden;*/
+  background-color: #1a1a1a;
+  padding-bottom: 20px;
 }
-/* line 225, ../sass/components/_erech.scss */
+/* line 227, ../sass/components/_erech.scss */
 .footer-wrapper #footer {
   width: 1340px;
   max-width: 100%;
@@ -1944,107 +1946,185 @@ img {
   padding: 0 3%;
   box-sizing: border-box;
 }
-/* line 227, ../sass/components/_erech.scss */
+/* line 229, ../sass/components/_erech.scss */
 .footer-wrapper #footer .block {
   float: right;
+  width: 25%;
+  padding-left: 3%;
+  box-sizing: border-box;
+  padding-top: 17px;
 }
-/* line 230, ../sass/components/_erech.scss */
-.footer-wrapper #footer #block-webform-client-block-67 {
-  width: 21%;
-  padding-right: 15%;
-  padding-top: 21px;
+@media (max-width: 767px) {
+  /* line 229, ../sass/components/_erech.scss */
+  .footer-wrapper #footer .block {
+    width: 100%;
+    padding: 0;
+  }
 }
-/* line 234, ../sass/components/_erech.scss */
-.footer-wrapper #footer #block-webform-client-block-67 input {
-  height: 37px;
-  border-radius: 7px;
-  border: none;
-  padding: 5px 10px;
-}
-/* line 240, ../sass/components/_erech.scss */
-.footer-wrapper #footer #block-webform-client-block-67 input:focus {
-  border: 2px solid #ef8f3b;
-}
-/* line 243, ../sass/components/_erech.scss */
-.footer-wrapper #footer #block-webform-client-block-67 label {
+/* line 239, ../sass/components/_erech.scss */
+.footer-wrapper #footer .block h2 {
+  color: #fff;
   font-weight: normal;
-  padding: 5px 10px;
+}
+@media (max-width: 767px) {
+  /* line 239, ../sass/components/_erech.scss */
+  .footer-wrapper #footer .block h2 {
+    text-align: center;
+  }
 }
 /* line 247, ../sass/components/_erech.scss */
-.footer-wrapper #footer #block-webform-client-block-67 .form-required {
-  display: none;
+.footer-wrapper #footer #block-webform-client-block-67 {
+  padding-left: 0%;
+  padding-top: 21px;
 }
-/* line 250, ../sass/components/_erech.scss */
-.footer-wrapper #footer #block-webform-client-block-67 .form-submit {
-  padding: 5px 10px;
-  background-color: #ef8f3b;
-  color: #fff;
-  border-radius: 7px;
-  transition: all 0.5s;
-  -webkit-transition: all 0.5s;
-  width: 100%;
+@media (max-width: 767px) {
+  /* line 247, ../sass/components/_erech.scss */
+  .footer-wrapper #footer #block-webform-client-block-67 {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 30px;
+  }
 }
-/* line 42, ../sass/components/_erech.scss */
-.footer-wrapper #footer #block-webform-client-block-67 .form-submit:hover {
-  background-color: #ffaf66;
+/* line 255, ../sass/components/_erech.scss */
+.footer-wrapper #footer #block-webform-client-block-67 .webform-component--name {
+  margin-top: 0;
 }
-/* line 254, ../sass/components/_erech.scss */
-.footer-wrapper #footer #block-webform-client-block-67 .form-item {
-  margin: 12px 0;
+@media (max-width: 767px) {
+  /* line 259, ../sass/components/_erech.scss */
+  .footer-wrapper #footer #block-menu-block-2 {
+    display: none;
+  }
 }
-/* line 258, ../sass/components/_erech.scss */
-.footer-wrapper #footer .block-menu-block {
-  width: 12%;
+/* line 265, ../sass/components/_erech.scss */
+.footer-wrapper #footer .block-menu-block h2 {
+  padding-right: 16px;
 }
-/* line 260, ../sass/components/_erech.scss */
+@media (max-width: 767px) {
+  /* line 265, ../sass/components/_erech.scss */
+  .footer-wrapper #footer .block-menu-block h2 {
+    padding: 0;
+  }
+}
+/* line 271, ../sass/components/_erech.scss */
 .footer-wrapper #footer .block-menu-block ul {
-  padding: 0;
+  padding-right: 10px;
+  margin: -5px 0 0 0;
+  border-right: 3px solid #4d4d4d;
 }
-/* line 263, ../sass/components/_erech.scss */
+@media (max-width: 767px) {
+  /* line 271, ../sass/components/_erech.scss */
+  .footer-wrapper #footer .block-menu-block ul {
+    border: none;
+    padding: 0;
+  }
+}
+/* line 280, ../sass/components/_erech.scss */
 .footer-wrapper #footer .block-menu-block li {
   list-style-image: none;
   list-style-type: none;
+  margin: 0;
 }
-/* line 267, ../sass/components/_erech.scss */
+@media (max-width: 767px) {
+  /* line 280, ../sass/components/_erech.scss */
+  .footer-wrapper #footer .block-menu-block li {
+    text-align: center;
+  }
+}
+/* line 288, ../sass/components/_erech.scss */
 .footer-wrapper #footer .block-menu-block a {
   color: #fff;
+  padding-right: 4px;
 }
-/* line 271, ../sass/components/_erech.scss */
-.footer-wrapper #footer #block-menu-block-3 {
-  padding-left: 11%;
+/* line 292, ../sass/components/_erech.scss */
+.footer-wrapper #footer .block-menu-block li.is-active a, .footer-wrapper #footer .block-menu-block li:hover a {
+  background-color: #4d4d4d;
+  display: block;
+  border-radius: 7px 0 0 7px;
 }
-/* line 274, ../sass/components/_erech.scss */
-.footer-wrapper #footer #block-views-news-block {
-  width: 21%;
+@media (max-width: 767px) {
+  /* line 292, ../sass/components/_erech.scss */
+  .footer-wrapper #footer .block-menu-block li.is-active a, .footer-wrapper #footer .block-menu-block li:hover a {
+    background-color: transparent;
+  }
+}
+/* line 301, ../sass/components/_erech.scss */
+.footer-wrapper #footer #block-views-text-site-block-1 {
   padding-left: 8%;
+  float: right;
   color: #fff;
-  padding-top: 8px;
 }
-/* line 279, ../sass/components/_erech.scss */
-.footer-wrapper #footer #block-views-news-block a {
+@media (max-width: 767px) {
+  /* line 301, ../sass/components/_erech.scss */
+  .footer-wrapper #footer #block-views-text-site-block-1 {
+    display: none;
+  }
+}
+/* line 308, ../sass/components/_erech.scss */
+.footer-wrapper #footer #block-views-text-site-block-1 p {
+  margin: 0;
+}
+
+/* line 315, ../sass/components/_erech.scss */
+.news-wrapper {
+  background-color: #4d4d4d;
+  overflow: hidden;
+}
+/* line 318, ../sass/components/_erech.scss */
+.news-wrapper #block-views-news-block {
+  width: 1340px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 3%;
+  box-sizing: border-box;
+  color: #e6e6e6;
+}
+/* line 321, ../sass/components/_erech.scss */
+.news-wrapper #block-views-news-block a {
   color: #fff;
-  font-weight: bold;
 }
-/* line 283, ../sass/components/_erech.scss */
-.footer-wrapper #footer #block-views-news-block h2 {
+/* line 324, ../sass/components/_erech.scss */
+.news-wrapper #block-views-news-block h2 {
   float: right;
   padding-top: 9px;
   padding-left: 16px;
 }
-/* line 288, ../sass/components/_erech.scss */
-.footer-wrapper #footer #block-views-news-block .view-content {
-  clear: both;
+/* line 331, ../sass/components/_erech.scss */
+.news-wrapper #block-views-news-block .view-footer p {
+  margin: 0;
 }
-/* line 291, ../sass/components/_erech.scss */
-.footer-wrapper #footer #block-views-news-block ul {
+/* line 334, ../sass/components/_erech.scss */
+.news-wrapper #block-views-news-block .view-footer a {
+  color: #fff;
+  font-weight: normal;
+  background-color: #808080;
+  border-radius: 7px;
+  padding: 2px 10px;
+  float: left;
+  margin: 10px 0;
+}
+/* line 344, ../sass/components/_erech.scss */
+.news-wrapper #block-views-news-block ul {
   padding: 0;
+  margin: 0;
 }
-/* line 294, ../sass/components/_erech.scss */
-.footer-wrapper #footer #block-views-news-block li {
+/* line 348, ../sass/components/_erech.scss */
+.news-wrapper #block-views-news-block li {
   margin-bottom: 20px;
 }
+/* line 351, ../sass/components/_erech.scss */
+.news-wrapper #block-views-news-block .views-slideshow-cycle-main-frame-row {
+  left: auto !important;
+  float: right;
+  width: 100% !important;
+}
+/* line 356, ../sass/components/_erech.scss */
+.news-wrapper #block-views-news-block .views-slideshow-cycle-main-frame {
+  width: 80% !important;
+  float: right;
+  margin: 10px 0;
+}
 
-/* line 301, ../sass/components/_erech.scss */
+/* line 364, ../sass/components/_erech.scss */
 .bx-wrapper .bx-viewport {
   background: transparent;
   border: none;
@@ -2055,16 +2135,16 @@ img {
 /**************************************************
                     main menu   
 **************************************************/
-/* line 310, ../sass/components/_erech.scss */
+/* line 373, ../sass/components/_erech.scss */
 #main-menu {
   margin-top: 30px;
 }
-/* line 312, ../sass/components/_erech.scss */
+/* line 375, ../sass/components/_erech.scss */
 #main-menu a {
   font-size: 1.5em;
   padding: 0px 10px;
 }
-/* line 315, ../sass/components/_erech.scss */
+/* line 378, ../sass/components/_erech.scss */
 #main-menu a:hover {
   background-color: #d56625 !important;
   border-radius: 7px;
@@ -2072,12 +2152,12 @@ img {
   background-image: none !important;
   padding-bottom: 2px;
 }
-/* line 322, ../sass/components/_erech.scss */
+/* line 385, ../sass/components/_erech.scss */
 #main-menu a.active {
   background: url("../images/menu-circle.png") no-repeat scroll center bottom transparent;
   padding-bottom: 2px;
 }
-/* line 327, ../sass/components/_erech.scss */
+/* line 390, ../sass/components/_erech.scss */
 #main-menu li {
   padding: 0 10px 0 0 !important;
 }
@@ -2085,61 +2165,96 @@ img {
 /**************************************************
                    sidebar  
 **************************************************/
-/* line 337, ../sass/components/_erech.scss */
-.sidebar-first .region-sidebar-first {
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-  width: 15% !important;
-}
-
-/* line 343, ../sass/components/_erech.scss */
+/* line 401, ../sass/components/_erech.scss */
 .sidebar-first #content {
   float: left !important;
   margin-left: 0 !important;
   margin-right: 0 !important;
-  width: 85% !important;
-  border-right: 10px solid #cbcbcb;
+  width: 80% !important;
   padding-bottom: 50px !important;
   padding-right: 30px !important;
 }
+@media (max-width: 767px) {
+  /* line 401, ../sass/components/_erech.scss */
+  .sidebar-first #content {
+    width: 100% !important;
+  }
+}
 
-/* line 353, ../sass/components/_erech.scss */
+/* line 413, ../sass/components/_erech.scss */
 .region-sidebar-first {
   padding-right: 0;
-  padding-top: 21px;
+  margin-left: 0 !important;
+  width: 20% !important;
 }
-/* line 356, ../sass/components/_erech.scss */
+@media (max-width: 767px) {
+  /* line 413, ../sass/components/_erech.scss */
+  .region-sidebar-first {
+    width: 100% !important;
+    border: 1px solid #b5b5b5;
+    margin-top: 10px;
+  }
+  /* line 421, ../sass/components/_erech.scss */
+  .region-sidebar-first li {
+    text-align: center;
+  }
+}
+/* line 425, ../sass/components/_erech.scss */
 .region-sidebar-first ul {
   padding: 0;
 }
-/* line 359, ../sass/components/_erech.scss */
+/* line 428, ../sass/components/_erech.scss */
 .region-sidebar-first li {
   list-style-type: none !important;
   list-style-image: none !important;
   margin: 0 !important;
+  padding: 0 0 2px 0;
 }
-/* line 364, ../sass/components/_erech.scss */
+/* line 434, ../sass/components/_erech.scss */
+.region-sidebar-first .views-row {
+  padding: 0 0 2px 0;
+}
+/* line 437, ../sass/components/_erech.scss */
 .region-sidebar-first a {
   color: #ef8f3b;
-  font-size: 1.5em;
-  line-height: 1.5em;
+  font-size: 1.2em;
+  line-height: 2em;
+  text-align: left;
+  display: block;
+  width: 100%;
+  padding-left: 10px;
+}
+/* line 446, ../sass/components/_erech.scss */
+.region-sidebar-first .is-active a, .region-sidebar-first li:hover a, .region-sidebar-first a.active, .region-sidebar-first a:hover {
+  background-color: #ef8f3b;
+  color: #fff;
+  border-radius: 0 7px 7px 0;
+}
+/* line 451, ../sass/components/_erech.scss */
+.region-sidebar-first .block-views {
+  padding-top: 24px;
+}
+
+/* line 456, ../sass/components/_erech.scss */
+.no-sidebars #content {
+  background-color: #fff !important;
 }
 
 /**************************************************
                    front  
 **************************************************/
-/* line 374, ../sass/components/_erech.scss */
+/* line 464, ../sass/components/_erech.scss */
 .front-image .gray-line {
   background-color: #cbcbcb;
   height: 12px;
   opacity: 0.8;
 }
 
-/* line 381, ../sass/components/_erech.scss */
+/* line 471, ../sass/components/_erech.scss */
 .front #page-title {
   display: none;
 }
-/* line 384, ../sass/components/_erech.scss */
+/* line 474, ../sass/components/_erech.scss */
 .front #main {
   max-width: 100%;
   width: 100%;
@@ -2147,7 +2262,7 @@ img {
   overflow: hidden;
   background: url("../images/texture.jpg") repeat scroll center bottom transparent;
 }
-/* line 392, ../sass/components/_erech.scss */
+/* line 482, ../sass/components/_erech.scss */
 .front .article-wrapper article {
   width: 1340px;
   max-width: 100%;
@@ -2156,13 +2271,13 @@ img {
   box-sizing: border-box;
   text-align: center;
 }
-/* line 395, ../sass/components/_erech.scss */
+/* line 485, ../sass/components/_erech.scss */
 .front .article-wrapper article h1 {
   margin: 0;
   color: #d56625;
   line-height: 2em;
 }
-/* line 402, ../sass/components/_erech.scss */
+/* line 492, ../sass/components/_erech.scss */
 .front .field-name-body {
   width: 1050px;
   max-width: 100%;
@@ -2170,12 +2285,12 @@ img {
   font-size: 1.4em;
   line-height: 1.3em;
 }
-/* line 408, ../sass/components/_erech.scss */
+/* line 498, ../sass/components/_erech.scss */
 .front .field-name-body strong {
   margin: 25px 0 18px;
   display: block;
 }
-/* line 413, ../sass/components/_erech.scss */
+/* line 503, ../sass/components/_erech.scss */
 .front .button a {
   padding: 5px 10px;
   background-color: #ef8f3b;
@@ -2188,13 +2303,13 @@ img {
 .front .button a:hover {
   background-color: #ffaf66;
 }
-/* line 416, ../sass/components/_erech.scss */
+/* line 506, ../sass/components/_erech.scss */
 .front .region-content-bottom {
   background: url("../images/Seperate.png") no-repeat scroll center top transparent;
   opacity: 0.8;
   margin-top: 30px;
 }
-/* line 420, ../sass/components/_erech.scss */
+/* line 510, ../sass/components/_erech.scss */
 .front .region-content-bottom #block-views-services-block-1 {
   position: relative;
   top: 60px;
@@ -2202,7 +2317,7 @@ img {
   padding: 0px 3% 63px;
   overflow: hidden;
 }
-/* line 426, ../sass/components/_erech.scss */
+/* line 516, ../sass/components/_erech.scss */
 .front .region-content-bottom #block-views-services-block-1 h2 {
   width: 1340px;
   max-width: 100%;
@@ -2213,7 +2328,7 @@ img {
   color: #fff;
   text-align: center;
 }
-/* line 432, ../sass/components/_erech.scss */
+/* line 522, ../sass/components/_erech.scss */
 .front .region-content-bottom #block-views-services-block-1 .view-services {
   width: 1340px;
   max-width: 100%;
@@ -2223,7 +2338,7 @@ img {
   width: 1150px;
   text-align: center;
 }
-/* line 436, ../sass/components/_erech.scss */
+/* line 526, ../sass/components/_erech.scss */
 .front .region-content-bottom #block-views-services-block-1 .view-services .views-row {
   float: right;
   width: 23%;
@@ -2233,22 +2348,22 @@ img {
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
 }
-/* line 444, ../sass/components/_erech.scss */
+/* line 534, ../sass/components/_erech.scss */
 .front .region-content-bottom #block-views-services-block-1 .view-services .views-row:hover {
   background: url("../images/service-circle.png") no-repeat scroll center 92% #ffefe1;
 }
-/* line 446, ../sass/components/_erech.scss */
+/* line 536, ../sass/components/_erech.scss */
 .front .region-content-bottom #block-views-services-block-1 .view-services .views-row:hover a {
   color: #666666;
   border-bottom: 1px solid #ef8f3b;
 }
 @media (max-width: 767px) {
-  /* line 436, ../sass/components/_erech.scss */
+  /* line 526, ../sass/components/_erech.scss */
   .front .region-content-bottom #block-views-services-block-1 .view-services .views-row {
     width: 100%;
   }
 }
-/* line 454, ../sass/components/_erech.scss */
+/* line 544, ../sass/components/_erech.scss */
 .front .region-content-bottom #block-views-services-block-1 .view-services .views-row a {
   color: #fff;
   font-size: 1.5em;
@@ -2259,48 +2374,48 @@ img {
   margin: 5px;
 }
 @media (max-width: 767px) {
-  /* line 454, ../sass/components/_erech.scss */
+  /* line 544, ../sass/components/_erech.scss */
   .front .region-content-bottom #block-views-services-block-1 .view-services .views-row a {
     border: none;
   }
 }
-/* line 467, ../sass/components/_erech.scss */
+/* line 557, ../sass/components/_erech.scss */
 .front .region-content-bottom #block-views-services-block-1 .view-services .views-row-1 {
   margin-left: 15.5%;
 }
-/* line 469, ../sass/components/_erech.scss */
+/* line 559, ../sass/components/_erech.scss */
 .front .region-content-bottom #block-views-services-block-1 .view-services .views-row-1 a {
   background: url("../images/service-1.png") no-repeat scroll center top transparent;
 }
-/* line 473, ../sass/components/_erech.scss */
+/* line 563, ../sass/components/_erech.scss */
 .front .region-content-bottom #block-views-services-block-1 .view-services .views-row-2 {
   margin-left: 15.5%;
 }
-/* line 475, ../sass/components/_erech.scss */
+/* line 565, ../sass/components/_erech.scss */
 .front .region-content-bottom #block-views-services-block-1 .view-services .views-row-2 a {
   background: url("../images/service-2.png") no-repeat scroll center top transparent;
 }
-/* line 480, ../sass/components/_erech.scss */
+/* line 570, ../sass/components/_erech.scss */
 .front .region-content-bottom #block-views-services-block-1 .view-services .views-row-3 a {
   background: url("../images/service-3.png") no-repeat scroll center top transparent;
 }
-/* line 484, ../sass/components/_erech.scss */
+/* line 574, ../sass/components/_erech.scss */
 .front .region-content-bottom #block-views-services-block-1 .view-services .views-row-4 {
   margin-left: 15.5%;
 }
-/* line 486, ../sass/components/_erech.scss */
+/* line 576, ../sass/components/_erech.scss */
 .front .region-content-bottom #block-views-services-block-1 .view-services .views-row-4 a {
   background: url("../images/service-4.png") no-repeat scroll center top transparent;
 }
-/* line 490, ../sass/components/_erech.scss */
+/* line 580, ../sass/components/_erech.scss */
 .front .region-content-bottom #block-views-services-block-1 .view-services .views-row-5 {
   margin-left: 15.5%;
 }
-/* line 492, ../sass/components/_erech.scss */
+/* line 582, ../sass/components/_erech.scss */
 .front .region-content-bottom #block-views-services-block-1 .view-services .views-row-5 a {
   background: url("../images/service-5.png") no-repeat scroll center top transparent;
 }
-/* line 497, ../sass/components/_erech.scss */
+/* line 587, ../sass/components/_erech.scss */
 .front .region-content-bottom #block-views-services-block-1 .view-services .views-row-6 a {
   background: url("../images/service-6.png") no-repeat scroll center top transparent;
 }
@@ -2308,7 +2423,7 @@ img {
 /**************************************************
                    page  
 **************************************************/
-/* line 511, ../sass/components/_erech.scss */
+/* line 601, ../sass/components/_erech.scss */
 .field-name-field-gallery .field-item {
   width: 30%;
   margin-left: 3%;
@@ -2317,31 +2432,474 @@ img {
   margin-bottom: 20px;
 }
 
-/* line 520, ../sass/components/_erech.scss */
-.field-name-field-image {
+/* line 610, ../sass/components/_erech.scss */
+.field-name-field-image, .field-name-field-service-image {
   float: left;
   margin: 0 30px 30px 0;
+}
+@media (max-width: 767px) {
+  /* line 610, ../sass/components/_erech.scss */
+  .field-name-field-image, .field-name-field-service-image {
+    width: 100%;
+  }
+  /* line 615, ../sass/components/_erech.scss */
+  .field-name-field-image img, .field-name-field-service-image img {
+    margin: 0 auto;
+    display: block;
+  }
 }
 
 /**************************************************
                    newsletter  
 **************************************************/
-/* line 529, ../sass/components/_erech.scss */
+/* line 626, ../sass/components/_erech.scss */
 .field-name-field-pdf {
   display: none;
 }
 
+/* line 631, ../sass/components/_erech.scss */
+#block-views-newsletter-block-1 .views-field-title {
+  font-size: 2em;
+  color: #ef8f3b;
+  margin-bottom: 10px;
+}
+/* line 636, ../sass/components/_erech.scss */
+#block-views-newsletter-block-1 .views-field-view-node {
+  text-align: left;
+  font-weight: bold;
+}
+/* line 640, ../sass/components/_erech.scss */
+#block-views-newsletter-block-1 .views-row {
+  border-bottom: 1px solid #ef8f3b;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+/* line 645, ../sass/components/_erech.scss */
+#block-views-newsletter-block-1 .views-row-last {
+  border-bottom: none;
+}
+
+/* line 651, ../sass/components/_erech.scss */
+.node-type-newsletter .pdf-link {
+  margin-top: 20px;
+}
+/* line 653, ../sass/components/_erech.scss */
+.node-type-newsletter .pdf-link a {
+  padding: 5px 10px;
+  background-color: #ef8f3b;
+  color: #fff;
+  border-radius: 7px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+/* line 42, ../sass/components/_erech.scss */
+.node-type-newsletter .pdf-link a:hover {
+  background-color: #ffaf66;
+}
+
 /**************************************************
-                   subsidiary  
+                   subsidiary & services 
 **************************************************/
-/* line 538, ../sass/components/_erech.scss */
+/* line 663, ../sass/components/_erech.scss */
 .node-type-subsidiary .field-name-field-lat-lng {
   float: left;
-  margin: 0 30px 30px 0;
+  margin: 0 3% 30px 0;
+  width: 57%;
+  box-sizing: border-box;
 }
-/* line 542, ../sass/components/_erech.scss */
+/* line 669, ../sass/components/_erech.scss */
 .node-type-subsidiary .field-name-body {
   clear: both;
+}
+/* line 672, ../sass/components/_erech.scss */
+.node-type-subsidiary .field-type-text {
+  width: 40%;
+  float: right;
+}
+/* line 676, ../sass/components/_erech.scss */
+.node-type-subsidiary .field-name-field-link-site {
+  margin-top: 10px;
+  float: right;
+}
+/* line 679, ../sass/components/_erech.scss */
+.node-type-subsidiary .field-name-field-link-site a {
+  padding: 5px 10px;
+  background-color: #ef8f3b;
+  color: #fff;
+  border-radius: 7px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  background-color: #c8c8c8;
+}
+/* line 42, ../sass/components/_erech.scss */
+.node-type-subsidiary .field-name-field-link-site a:hover {
+  background-color: #ffaf66;
+}
+
+/* line 687, ../sass/components/_erech.scss */
+#block-views-subsidiary-block .views-row, #block-views-services-block .views-row {
+  float: right;
+  width: 30%;
+  margin-left: 3%;
+  border: 1px solid #9f9f9f;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 3px;
+  margin-bottom: 30px;
+}
+/* line 698, ../sass/components/_erech.scss */
+#block-views-subsidiary-block .views-field-title, #block-views-services-block .views-field-title {
+  font-size: 2em;
+  color: #d56625;
+}
+/* line 702, ../sass/components/_erech.scss */
+#block-views-subsidiary-block .views-field-view-node a, #block-views-services-block .views-field-view-node a {
+  padding: 5px 10px;
+  background-color: #ef8f3b;
+  color: #fff;
+  border-radius: 7px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+/* line 42, ../sass/components/_erech.scss */
+#block-views-subsidiary-block .views-field-view-node a:hover, #block-views-services-block .views-field-view-node a:hover {
+  background-color: #ffaf66;
+}
+/* line 705, ../sass/components/_erech.scss */
+#block-views-subsidiary-block .views-field-body, #block-views-services-block .views-field-body {
+  height: 215px;
+}
+/* line 708, ../sass/components/_erech.scss */
+#block-views-subsidiary-block .views-field-field-teaser, #block-views-services-block .views-field-field-teaser {
+  margin: 20px 0;
+  height: 75px;
+}
+
+/* line 714, ../sass/components/_erech.scss */
+#block-webform-client-block-61 {
+  position: relative;
+}
+/* line 716, ../sass/components/_erech.scss */
+#block-webform-client-block-61 input, #block-webform-client-block-61 textarea {
+  border: 1px solid #666666;
+  border-radius: 7px;
+}
+/* line 720, ../sass/components/_erech.scss */
+#block-webform-client-block-61 .webform-component-textfield, #block-webform-client-block-61 .webform-component-email {
+  float: right;
+  margin: 5px 0 5px 4%;
+  width: 48%;
+}
+@media (max-width: 767px) {
+  /* line 720, ../sass/components/_erech.scss */
+  #block-webform-client-block-61 .webform-component-textfield, #block-webform-client-block-61 .webform-component-email {
+    width: 100%;
+  }
+}
+/* line 728, ../sass/components/_erech.scss */
+#block-webform-client-block-61 .webform-component-textarea {
+  float: left;
+  width: 48%;
+  left: 0;
+  position: absolute;
+  margin-top: 5px;
+}
+@media (max-width: 767px) {
+  /* line 728, ../sass/components/_erech.scss */
+  #block-webform-client-block-61 .webform-component-textarea {
+    width: 100%;
+    position: relative;
+  }
+}
+/* line 739, ../sass/components/_erech.scss */
+#block-webform-client-block-61 .webform-component--service, #block-webform-client-block-61 .grippie {
+  display: none;
+}
+/* line 742, ../sass/components/_erech.scss */
+#block-webform-client-block-61 .form-actions {
+  clear: both;
+}
+/* line 745, ../sass/components/_erech.scss */
+#block-webform-client-block-61 input.form-submit {
+  border: 1px solid #ef8f3b;
+  float: left;
+  width: 48%;
+}
+@media (max-width: 767px) {
+  /* line 745, ../sass/components/_erech.scss */
+  #block-webform-client-block-61 input.form-submit {
+    width: 100%;
+  }
+}
+
+/**************************************************
+                   team  
+**************************************************/
+/* line 759, ../sass/components/_erech.scss */
+#block-views-team-block .views-field-field-team-image {
+  float: right;
+  width: 200px;
+  max-width: 30%;
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+/* line 765, ../sass/components/_erech.scss */
+#block-views-team-block .views-field-field-team-image img {
+  border: 1px solid #b5b5b5;
+  padding: 5px;
+}
+@media (max-width: 767px) {
+  /* line 759, ../sass/components/_erech.scss */
+  #block-views-team-block .views-field-field-team-image {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+  }
+  /* line 773, ../sass/components/_erech.scss */
+  #block-views-team-block .views-field-field-team-image img {
+    margin: 0 auto 30px;
+    display: block;
+  }
+}
+/* line 779, ../sass/components/_erech.scss */
+#block-views-team-block .views-row {
+  clear: both;
+}
+@media (max-width: 767px) {
+  /* line 779, ../sass/components/_erech.scss */
+  #block-views-team-block .views-row {
+    text-align: center;
+  }
+}
+/* line 785, ../sass/components/_erech.scss */
+#block-views-team-block .views-field-field-role {
+  font-size: 2em;
+  color: #d56625;
+  padding-bottom: 30px;
+  display: block;
+}
+
+/**************************************************
+                   jobs  
+**************************************************/
+/* line 798, ../sass/components/_erech.scss */
+#block-views-jobs-block .views-field-title a {
+  color: #d56625;
+  font-size: 1.7em;
+}
+/* line 802, ../sass/components/_erech.scss */
+#block-views-jobs-block .views-field-view-node {
+  text-align: left;
+  margin-top: 20px;
+}
+/* line 805, ../sass/components/_erech.scss */
+#block-views-jobs-block .views-field-view-node a {
+  font-weight: bold;
+}
+/* line 809, ../sass/components/_erech.scss */
+#block-views-jobs-block .views-row {
+  border-bottom: 1px solid #b5b5b5;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+/* line 814, ../sass/components/_erech.scss */
+#block-views-jobs-block .views-row-last {
+  border: none;
+}
+
+/* line 820, ../sass/components/_erech.scss */
+.node-type-job article {
+  width: 70%;
+  float: right;
+}
+/* line 824, ../sass/components/_erech.scss */
+.node-type-job .region-content-bottom {
+  width: 30%;
+  float: left;
+}
+/* line 829, ../sass/components/_erech.scss */
+.node-type-job .field-name-field-requir p {
+  margin: 0;
+}
+
+/* line 836, ../sass/components/_erech.scss */
+#block-webform-client-block-63 .webform-component--job-title, #block-webform-client-block-63 .webform-component--emailsend {
+  display: none;
+}
+/* line 840, ../sass/components/_erech.scss */
+#block-webform-client-block-63 .webform-component-file label {
+  position: relative;
+  padding-right: 0;
+  font-weight: bold;
+}
+/* line 845, ../sass/components/_erech.scss */
+#block-webform-client-block-63 .webform-component-file input {
+  padding: 0;
+}
+/* line 848, ../sass/components/_erech.scss */
+#block-webform-client-block-63 .webform-component-file input.form-submit {
+  width: auto;
+  float: left;
+  padding: 5px 10px;
+}
+
+/**************************************************
+                   webform  
+**************************************************/
+/* line 861, ../sass/components/_erech.scss */
+.block-webform input, .webform-client-form input {
+  height: 37px;
+  border-radius: 7px;
+  border: 1px solid #f0f0f0;
+  padding: 5px 10px;
+}
+@media (max-width: 767px) {
+  /* line 861, ../sass/components/_erech.scss */
+  .block-webform input, .webform-client-form input {
+    width: 100%;
+  }
+}
+/* line 870, ../sass/components/_erech.scss */
+.block-webform input:focus, .webform-client-form input:focus {
+  border: 2px solid #ef8f3b;
+}
+/* line 873, ../sass/components/_erech.scss */
+.block-webform label, .webform-client-form label {
+  font-weight: normal;
+  padding: 5px 10px;
+}
+/* line 877, ../sass/components/_erech.scss */
+.block-webform .form-required, .webform-client-form .form-required {
+  display: none;
+}
+/* line 880, ../sass/components/_erech.scss */
+.block-webform .form-submit, .webform-client-form .form-submit {
+  padding: 5px 10px;
+  background-color: #ef8f3b;
+  color: #fff;
+  border-radius: 7px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  width: 100%;
+}
+/* line 42, ../sass/components/_erech.scss */
+.block-webform .form-submit:hover, .webform-client-form .form-submit:hover {
+  background-color: #ffaf66;
+}
+/* line 884, ../sass/components/_erech.scss */
+.block-webform .form-item, .webform-client-form .form-item {
+  margin: 12px 0;
+}
+
+/**************************************************
+                   custonmer  
+**************************************************/
+/* line 894, ../sass/components/_erech.scss */
+#block-views-customer-block h3 {
+  text-align: center;
+  font-size: 2em;
+  clear: both;
+  padding: 55px 0 0px;
+  display: block;
+}
+/* line 901, ../sass/components/_erech.scss */
+#block-views-customer-block .views-row {
+  width: 18%;
+  margin-left: 2%;
+  float: right;
+}
+
+/**************************************************
+                   contant  
+**************************************************/
+/* line 913, ../sass/components/_erech.scss */
+.page-node-65 #webform-client-form-65 {
+  position: relative;
+  width: 45%;
+  float: right;
+}
+/* line 919, ../sass/components/_erech.scss */
+.page-node-65 .webform-component-file label {
+  position: relative !important;
+  padding-right: 0;
+  font-weight: bold;
+}
+/* line 924, ../sass/components/_erech.scss */
+.page-node-65 .webform-component-file input {
+  padding: 0;
+  width: auto;
+}
+/* line 928, ../sass/components/_erech.scss */
+.page-node-65 .webform-component-file input.form-submit {
+  width: auto;
+  float: right;
+  padding: 5px 10px;
+}
+/* line 934, ../sass/components/_erech.scss */
+.page-node-65 input, .page-node-65 textarea {
+  border: 1px solid #666666;
+  border-radius: 7px;
+  width: 100%;
+}
+/* line 939, ../sass/components/_erech.scss */
+.page-node-65 .webform-component-textfield, .page-node-65 .webform-component-email {
+  width: 100%;
+}
+/* line 943, ../sass/components/_erech.scss */
+.page-node-65 .webform-component-checkboxes label.in-field-labels-processed {
+  position: relative !important;
+  padding-right: 0;
+  font-weight: bold;
+}
+/* line 948, ../sass/components/_erech.scss */
+.page-node-65 .webform-component-checkboxes input {
+  width: 20px;
+}
+/* line 951, ../sass/components/_erech.scss */
+.page-node-65 .webform-component-checkboxes label.option {
+  font-weight: normal;
+  position: absolute !important;
+  padding-right: 10px;
+}
+/* line 956, ../sass/components/_erech.scss */
+.page-node-65 .webform-component-checkboxes .form-type-checkbox {
+  width: 45%;
+  float: right;
+  margin: 0;
+  height: 24px;
+}
+/* line 963, ../sass/components/_erech.scss */
+.page-node-65 .grippie {
+  display: none;
+}
+/* line 966, ../sass/components/_erech.scss */
+.page-node-65 .form-actions {
+  clear: both;
+}
+/* line 969, ../sass/components/_erech.scss */
+.page-node-65 input.form-submit {
+  border: 1px solid #ef8f3b;
+  float: left;
+  width: 100%;
+}
+@media (max-width: 767px) {
+  /* line 969, ../sass/components/_erech.scss */
+  .page-node-65 input.form-submit {
+    width: 100%;
+  }
+}
+/* line 977, ../sass/components/_erech.scss */
+.page-node-65 .webform-component-textarea {
+  clear: both;
+  padding-top: 30px;
+}
+
+/* line 983, ../sass/components/_erech.scss */
+.customer {
+  float: left;
+  width: 45%;
+  padding-top: 23px;
 }
 
 /**
