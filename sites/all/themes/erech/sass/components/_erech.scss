@@ -214,15 +214,83 @@ img{
 
 .footer-wrapper{
   background-color: #333;
+  /*
+      background-image: -ms-linear-gradient(to left, #f6f6f6 50%, #333 50%);
+      background-image: -moz-linear-gradient(to left, #f6f6f6 50%, #333 50%);
+      background-image: -o-linear-gradient(to left, #f6f6f6 50%, #333 50%);
+      background-image: -webkit-gradient(linear, left top, right top, color-stop(0.5, #f6f6f6), color-stop(0.5, #333));
+      background-image: -webkit-linear-gradient(to left, #f6f6f6 50%, #333 50%);
+      background-image: linear-gradient(to right, #f6f6f6 50%, #333 50%);      
+      overflow: hidden;*/
   #footer{
     @include width;
     .block{
-      width: 21%;
       float: right;
-      padding-left: 5.3%;
     }
     #block-webform-client-block-67{
-      padding-left: 0;
+      width: 21%;
+      padding-right: 15%;
+      padding-top: 21px;
+      input{
+        height: 37px;
+        border-radius: 7px;
+        border:none;
+        padding: 5px 10px;
+      }
+      input:focus{
+        border: 2px solid $orange;
+      }
+      label{
+        font-weight: normal;
+        padding: 5px 10px;
+      }
+      .form-required{
+        display: none;
+      }
+      .form-submit{
+        @include button;
+        width: 100%;
+      }
+      .form-item{
+        margin: 12px 0 ;
+      }
+    }
+    .block-menu-block{
+      width: 12%;
+      ul{
+        padding: 0;
+      }
+      li{
+        list-style-image: none;
+        list-style-type: none;
+      }
+      a{
+        color: #fff;
+      }
+    }
+    #block-menu-block-3{
+      padding-left: 11%;
+    }
+    #block-views-news-block{
+      width: 21%;
+      padding-left: 8%;
+      color: #fff;
+      padding-top: 8px;
+      a{
+        color: #fff;
+        font-weight: bold;
+      }
+      h2{
+        float: right;
+        padding-top: 9px;
+        padding-left: 16px;
+      }
+      .view-content{
+        clear: both;
+      }
+      ul{
+        padding: 0;
+      }
     }
   }
 }
@@ -281,6 +349,7 @@ img{
 
 .region-sidebar-first{
   padding-right: 0;
+  padding-top: 21px;
   ul{
     padding: 0;
   }
@@ -292,7 +361,7 @@ img{
   a{
     color: $orange;
     font-size: 1.5em;
-    line-height: 1.2em;
+    line-height: 1.5em;
   }
 }
 /**************************************************
@@ -447,6 +516,7 @@ img{
 
 .field-name-field-image{
   float: left;
+  margin: 0 30px 30px 0;
 }
 
 /**************************************************
