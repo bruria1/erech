@@ -78,7 +78,7 @@ body{
 }
 
 
-#main{
+.no-front #main{
   @include width;
   #content{
     padding: 0 2%;
@@ -221,7 +221,7 @@ img{
   }
 }
 
-.footer-wrapper{
+.no-front .footer-wrapper{
   background-color: #1a1a1a;
   padding-bottom: 20px;
   #footer{
@@ -254,6 +254,9 @@ img{
       }
       .webform-component--name{
         margin-top: 0;
+      }
+      input.form-submit{
+        border:1px solid $orange;
       }
     }
       #block-menu-block-2{
@@ -477,6 +480,9 @@ img{
     padding: 0;
     overflow: hidden;
     background: url("../images/texture.jpg") repeat scroll center bottom transparent;
+  }
+  #content{
+    padding: 0;
   }
   .article-wrapper{
     article{
