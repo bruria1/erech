@@ -1744,7 +1744,7 @@ body a {
 }
 
 /* line 81, ../sass/components/_erech.scss */
-.no-front #main {
+.not-front #main {
   width: 1340px;
   max-width: 100%;
   margin: 0 auto;
@@ -1752,7 +1752,7 @@ body a {
   box-sizing: border-box;
 }
 /* line 83, ../sass/components/_erech.scss */
-.no-front #main #content {
+.not-front #main #content {
   padding: 0 2%;
   background-color: #fff;
   padding-bottom: 30px;
@@ -1934,12 +1934,12 @@ img {
 }
 
 /* line 224, ../sass/components/_erech.scss */
-.no-front .footer-wrapper {
+.not-front .footer-wrapper {
   background-color: #1a1a1a;
   padding-bottom: 20px;
 }
 /* line 227, ../sass/components/_erech.scss */
-.no-front .footer-wrapper #footer {
+.not-front .footer-wrapper #footer {
   width: 1340px;
   max-width: 100%;
   margin: 0 auto;
@@ -1947,7 +1947,7 @@ img {
   box-sizing: border-box;
 }
 /* line 229, ../sass/components/_erech.scss */
-.no-front .footer-wrapper #footer .block {
+.not-front .footer-wrapper #footer .block {
   float: right;
   width: 25%;
   padding-left: 3%;
@@ -1956,115 +1956,115 @@ img {
 }
 @media (max-width: 767px) {
   /* line 229, ../sass/components/_erech.scss */
-  .no-front .footer-wrapper #footer .block {
+  .not-front .footer-wrapper #footer .block {
     width: 100%;
     padding: 0;
   }
 }
 /* line 239, ../sass/components/_erech.scss */
-.no-front .footer-wrapper #footer .block h2 {
+.not-front .footer-wrapper #footer .block h2 {
   color: #fff;
   font-weight: normal;
 }
 @media (max-width: 767px) {
   /* line 239, ../sass/components/_erech.scss */
-  .no-front .footer-wrapper #footer .block h2 {
+  .not-front .footer-wrapper #footer .block h2 {
     text-align: center;
   }
 }
 /* line 247, ../sass/components/_erech.scss */
-.no-front .footer-wrapper #footer #block-webform-client-block-67 {
+.not-front .footer-wrapper #footer #block-webform-client-block-67 {
   padding-left: 0%;
   padding-top: 21px;
 }
 @media (max-width: 767px) {
   /* line 247, ../sass/components/_erech.scss */
-  .no-front .footer-wrapper #footer #block-webform-client-block-67 {
+  .not-front .footer-wrapper #footer #block-webform-client-block-67 {
     width: 100%;
     padding: 0;
     margin-bottom: 30px;
   }
 }
 /* line 255, ../sass/components/_erech.scss */
-.no-front .footer-wrapper #footer #block-webform-client-block-67 .webform-component--name {
+.not-front .footer-wrapper #footer #block-webform-client-block-67 .webform-component--name {
   margin-top: 0;
 }
 /* line 258, ../sass/components/_erech.scss */
-.no-front .footer-wrapper #footer #block-webform-client-block-67 input.form-submit {
+.not-front .footer-wrapper #footer #block-webform-client-block-67 input.form-submit {
   border: 1px solid #ef8f3b;
 }
 @media (max-width: 767px) {
   /* line 262, ../sass/components/_erech.scss */
-  .no-front .footer-wrapper #footer #block-menu-block-2 {
+  .not-front .footer-wrapper #footer #block-menu-block-2 {
     display: none;
   }
 }
 /* line 268, ../sass/components/_erech.scss */
-.no-front .footer-wrapper #footer .block-menu-block h2 {
+.not-front .footer-wrapper #footer .block-menu-block h2 {
   padding-right: 16px;
 }
 @media (max-width: 767px) {
   /* line 268, ../sass/components/_erech.scss */
-  .no-front .footer-wrapper #footer .block-menu-block h2 {
+  .not-front .footer-wrapper #footer .block-menu-block h2 {
     padding: 0;
   }
 }
 /* line 274, ../sass/components/_erech.scss */
-.no-front .footer-wrapper #footer .block-menu-block ul {
+.not-front .footer-wrapper #footer .block-menu-block ul {
   padding-right: 10px;
   margin: -5px 0 0 0;
   border-right: 3px solid #4d4d4d;
 }
 @media (max-width: 767px) {
   /* line 274, ../sass/components/_erech.scss */
-  .no-front .footer-wrapper #footer .block-menu-block ul {
+  .not-front .footer-wrapper #footer .block-menu-block ul {
     border: none;
     padding: 0;
   }
 }
 /* line 283, ../sass/components/_erech.scss */
-.no-front .footer-wrapper #footer .block-menu-block li {
+.not-front .footer-wrapper #footer .block-menu-block li {
   list-style-image: none;
   list-style-type: none;
   margin: 0;
 }
 @media (max-width: 767px) {
   /* line 283, ../sass/components/_erech.scss */
-  .no-front .footer-wrapper #footer .block-menu-block li {
+  .not-front .footer-wrapper #footer .block-menu-block li {
     text-align: center;
   }
 }
 /* line 291, ../sass/components/_erech.scss */
-.no-front .footer-wrapper #footer .block-menu-block a {
+.not-front .footer-wrapper #footer .block-menu-block a {
   color: #fff;
   padding-right: 4px;
 }
 /* line 295, ../sass/components/_erech.scss */
-.no-front .footer-wrapper #footer .block-menu-block li.is-active a, .no-front .footer-wrapper #footer .block-menu-block li:hover a {
+.not-front .footer-wrapper #footer .block-menu-block li.is-active a, .not-front .footer-wrapper #footer .block-menu-block li:hover a {
   background-color: #4d4d4d;
   display: block;
   border-radius: 7px 0 0 7px;
 }
 @media (max-width: 767px) {
   /* line 295, ../sass/components/_erech.scss */
-  .no-front .footer-wrapper #footer .block-menu-block li.is-active a, .no-front .footer-wrapper #footer .block-menu-block li:hover a {
+  .not-front .footer-wrapper #footer .block-menu-block li.is-active a, .not-front .footer-wrapper #footer .block-menu-block li:hover a {
     background-color: transparent;
   }
 }
 /* line 304, ../sass/components/_erech.scss */
-.no-front .footer-wrapper #footer #block-views-text-site-block-1 {
+.not-front .footer-wrapper #footer #block-views-text-site-block-1 {
   padding-left: 8%;
   float: right;
   color: #fff;
 }
 @media (max-width: 767px) {
   /* line 304, ../sass/components/_erech.scss */
-  .no-front .footer-wrapper #footer #block-views-text-site-block-1 {
+  .not-front .footer-wrapper #footer #block-views-text-site-block-1 {
     display: none;
   }
 }
 /* line 311, ../sass/components/_erech.scss */
-.no-front .footer-wrapper #footer #block-views-text-site-block-1 p {
+.not-front .footer-wrapper #footer #block-views-text-site-block-1 p {
   margin: 0;
 }
 

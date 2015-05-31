@@ -78,7 +78,7 @@ body{
 }
 
 
-.no-front #main{
+.not-front #main{
   @include width;
   #content{
     padding: 0 2%;
@@ -221,7 +221,7 @@ img{
   }
 }
 
-.no-front .footer-wrapper{
+.not-front .footer-wrapper{
   background-color: #1a1a1a;
   padding-bottom: 20px;
   #footer{
