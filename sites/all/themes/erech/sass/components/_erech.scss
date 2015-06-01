@@ -1086,6 +1086,14 @@ img{
     @include res(s-m){
       width: 100%;
     }
+    @include res(l){
+      width: 100%;
+    }
+    .webform-component-markup{
+      font-size: 1.5em;
+      color: $orange;
+      font-weight: bold;
+    }
   }
   .webform-component-file{
     label{
@@ -1130,6 +1138,9 @@ img{
       float: right;
       margin: 0;
       height: 24px;
+      @include res(s){
+        width: 100%;
+      }
     }
   }
   .grippie{
@@ -1145,6 +1156,9 @@ img{
     @include res(s-m){
       width: 100%;
     }
+    @include res(l){
+      width: 100%;
+    }
   }
   .webform-component-textarea{
     clear: both;
@@ -1158,5 +1172,30 @@ img{
   padding-top: 23px;
   @include res(s-m){
       width: 100%;
+  }
+  @include res(l){
+      width: 100%;
+  }
+  .view-text-site{
+    .views-field-title{
+      font-size: 1.5em;
+      color: $orange;
+      font-weight: bold;
+      margin-top: 11px;
+    }
+  }
+  .view-team.view-display-id-block_1{
+    font-size: 1.2em;
+    .views-field-field-mail{
+      float: left;
+      a{
+        color: $title-orange;
+      }
+    }
+    .views-field-field-role{
+      float: right;
+      clear: both;
+      margin-top: 10px;
+    }
   }
 }
