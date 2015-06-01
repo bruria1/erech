@@ -30,6 +30,7 @@
       <?php endif; ?>
     </header>
   <?php endif; ?>
+  <h1><div class="about-title">מי אנחנו</div></h1>
   <?php
     // We hide the comments and links now so that we can render them later.
     hide($content['comments']);
@@ -44,6 +45,10 @@
     <div class="customer">
       <?php
           $my_block = module_invoke('views', 'block_view', 'text_site-block');
+          print render($my_block['content']); 
+        ?>
+              <?php
+          $my_block = module_invoke('views', 'block_view', 'team-block_1');
           print render($my_block['content']); 
         ?>
   </div>
