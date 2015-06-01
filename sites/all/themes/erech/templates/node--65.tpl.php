@@ -30,7 +30,6 @@
       <?php endif; ?>
     </header>
   <?php endif; ?>
-  <h1><div class="about-title">מי אנחנו</div></h1>
   <?php
     // We hide the comments and links now so that we can render them later.
     hide($content['comments']);
