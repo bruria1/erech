@@ -272,10 +272,23 @@ img{
       input.form-submit{
         border:1px solid $orange;
       }
+      input{
+        height: 28px;
+      }
+      label{
+        padding: 1px 10px;
+      }
+      input.webform-submit{
+        padding: 0;
+      }
     }
-      #block-menu-block-2{
+      #block-views-services-block-2--2, #block-views-services-block-2{
         @include res(s-m){
           display: none;
+        }
+        .view-content{
+      line-height: 1.78em;
+      margin-top: -2px !important;
         }
       }
     #block-menu-block-3{
@@ -289,14 +302,14 @@ img{
         }
       }
     }
-    .block-menu-block{
+    .block-menu-block, #block-views-services-block-2--2, #block-views-services-block-2{
       h2{
         padding-right: 16px;
         @include res(s-m){
           padding: 0;
         }
       }
-      ul{
+      ul, .view-content{
         padding-right: 10px;
         margin: -5px 0 0 0;
         border-right: 3px solid #4d4d4d;
@@ -318,7 +331,7 @@ img{
         color: #fff;
         padding-right: 4px;
       }
-      li.is-active a , li:hover a{
+      li.is-active a , li:hover a, a.active, a:hover{
         background-color: #4d4d4d;
         display: block;
         border-radius: 7px 0 0 7px;
@@ -623,6 +636,8 @@ img{
             padding: 103px 0 5px;
             display: block;
             margin: 5px;
+            transition: all 0.5s;
+            -webkit-transition: all 0.5s;
             @include res(s-m){
               border: none;
             }
@@ -713,7 +728,7 @@ img{
   display: none;
 }
 
-#block-views-newsletter-block-1{
+#block-views-newsletter-block-1, #block-views-news-block-1{
   .views-field-title{
     font-size: 2em;
     color: $orange;
@@ -857,6 +872,12 @@ img{
     }
   }
 }
+
+.sidebars #block-views-services-block-2{
+  h2{
+    display: none;
+  }
+}
 /**************************************************
                    team  
 **************************************************/
@@ -864,10 +885,7 @@ img{
 #block-views-team-block{
   .views-field-field-team-image{
     float: right;
-    width: 200px;
-    max-width: 30%;
-    margin-left: 30px;
-    margin-bottom: 50px;
+    width: 30%;
     img{
       border:1px solid #b5b5b5;
       padding: 5px;
@@ -884,6 +902,8 @@ img{
   }
   .views-row {
     clear: both;
+    margin-bottom: 50px;
+    overflow: hidden;
     @include res(l){
       margin-top: 50px;
     }
@@ -902,6 +922,20 @@ img{
     display: block;
     @include res(s-m){
       padding-bottom: 5px;
+    }
+  }
+  a{
+    color: $title-orange;
+    padding-top: 5px;
+  }
+  .views-field-field-role, .views-field-field-description, .views-field-field-mail{
+    width: 69%;
+    float: left;
+    @include res(s-m){
+      width: 100%;
+    }
+    @include res(l){
+      width: 66%;
     }
   }
 }
