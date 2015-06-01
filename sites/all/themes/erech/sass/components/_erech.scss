@@ -749,7 +749,7 @@ img{
 }
 
 .node-type-newsletter{
-  .pdf-link {
+  .pdf-link, .field-type-link-field {
     margin-top: 20px;
     a{
       @include button;

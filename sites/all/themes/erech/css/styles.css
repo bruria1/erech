@@ -2621,11 +2621,11 @@ img {
 }
 
 /* line 752, ../sass/components/_erech.scss */
-.node-type-newsletter .pdf-link {
+.node-type-newsletter .pdf-link, .node-type-newsletter .field-type-link-field {
   margin-top: 20px;
 }
 /* line 754, ../sass/components/_erech.scss */
-.node-type-newsletter .pdf-link a {
+.node-type-newsletter .pdf-link a, .node-type-newsletter .field-type-link-field a {
   padding: 5px 10px;
   background-color: #ef8f3b;
   color: #fff;
@@ -2634,7 +2634,7 @@ img {
   -webkit-transition: all 0.5s;
 }
 /* line 45, ../sass/components/_erech.scss */
-.node-type-newsletter .pdf-link a:hover {
+.node-type-newsletter .pdf-link a:hover, .node-type-newsletter .field-type-link-field a:hover {
   background-color: #ffaf66;
 }
 
