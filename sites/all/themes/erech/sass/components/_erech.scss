@@ -438,11 +438,11 @@ img{
       border-radius: 7px;
       color: #fff;
       background-image: none!important;
-      padding-bottom: 2px;
+      padding-bottom: 5px;
     }
     &.active{
       background: url("../images/menu-circle.png") no-repeat scroll center bottom transparent;
-      padding-bottom: 2px;
+      padding-bottom: 5px;
     }
   }
   li{
@@ -466,6 +466,12 @@ img{
     a{
       text-align: center!important;
     }
+  }
+}
+
+.admin-expanded{
+  #main-menu a{
+    padding: 0 4px;
   }
 }
 /**************************************************
@@ -1113,10 +1119,20 @@ img{
   p{
     margin: 0;
   }
+  #main #content{
+    padding:  0;
+  }
+  article{
+      background-color: #3f3f3f;
+  }
   #webform-client-form-65{
     position: relative;
-    width: 45%;
+    width: 50%;
     float: right;
+    background-color: #f0f0f0;
+    padding: 0 2%;
+    padding-bottom: 30px;
+    box-sizing: border-box;
     @include res(s-m){
       width: 100%;
     }
@@ -1124,9 +1140,12 @@ img{
       width: 100%;
     }
     .webform-component-markup{
-      font-size: 1.5em;
-      color: $orange;
-      font-weight: bold;
+      h2{
+        font-size: 1.5em;
+        color: $orange; 
+        margin: 0;      
+      }
+
     }
   }
   .webform-component-file{
@@ -1198,12 +1217,39 @@ img{
     clear: both;
     padding-top: 30px;
   }
+  .field-name-body{
+    font-size: 1.2em;
+    padding: 0 2%;
+    background-color: #fff;
+    overflow: hidden;
+    h2{
+      color: $title-orange;
+      font-weight: bold;
+      margin: 0;
+    }
+    .right{
+      width: 45%;
+      float: right;
+      @include res(s-m){
+        width: 100%;
+      }
+    }
+    .left{
+      width: 45%;
+      float: left;
+      @include res(s-m){
+        width: 100%;
+      }
+    }
+  }
 }
 
 .customer{
   float: left;
-  width: 45%;
-  padding-top: 23px;
+  width: 50%;
+  padding: 0 2%;
+  padding-bottom: 30px;
+  box-sizing: border-box;
   @include res(s-m){
       width: 100%;
   }
@@ -1211,16 +1257,20 @@ img{
       width: 100%;
   }
   .view-text-site{
+    color: #fff;
+    padding-bottom: 20px;
     .views-field-title{
-      font-size: 1.5em;
-      color: $orange;
-      font-weight: bold;
-      margin-bottom: 4px;
-      margin-top: -11px;
+      h2{
+        font-size: 1.5em;
+        color: $orange; 
+        margin: 0;   
+        padding-top: 11px;   
+      }
     }
   }
   .view-team.view-display-id-block_1{
     font-size: 1.2em;
+    color: #fff;
     .views-field-field-mail{
       float: left;
       a{
@@ -1232,5 +1282,46 @@ img{
       clear: both;
       margin-top: 10px;
     }
+  }
+}
+
+/******* checkbox  **********/
+
+.webform-component-checkboxes .form-item {
+  input[type=checkbox].form-checkbox {
+      /*position: absolute; */
+      overflow: hidden; 
+      clip: rect(0 0 0 0); 
+      height:1px; 
+      width:1px; 
+      margin:-1px; 
+      padding:0;
+      border:0;
+  }
+  input[type=checkbox].form-checkbox + label.in-field-labels-processed {
+      padding-right:33px;
+      height:15px; 
+      display:inline-block;
+      line-height:15px;
+      background-repeat:no-repeat;
+      background-position: right 3px;
+      font-size:14px;
+      vertical-align:middle;
+      cursor:pointer;
+      margin-right: 0px;
+      position: relative;
+      padding-top: 7px;
+  }
+  input[type=checkbox].form-checkbox:checked + label.in-field-labels-processed {
+      background-position: right -24px;
+  }
+  input.form-checkbox{
+    display: none;
+  }
+  .in-field-labels-processed{
+      background-image:url("../images/checkbox.png");
+  }
+  .form-type-checkbox label:after{
+    content: none;
   }
 }
