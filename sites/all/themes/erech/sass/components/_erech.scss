@@ -368,12 +368,20 @@ img{
         color: #fff;
       }
       h2{
-        float: right;
-        padding-top: 9px;
         padding-left: 16px;
       }
-
+      li{
+        list-style-type: none;
+        clear: right;
+        margin-bottom: 0!important;
+      }
+      .view-content{
+        width: 80%;
+        float: right;
+      }
       .view-footer{
+        width: 20%;
+        float: left;
         p{
           margin: 0;
         }
@@ -383,8 +391,8 @@ img{
           background-color: #808080;
           border-radius: 7px;
           padding: 2px 10px;
+          margin: -11px 0 12px;
           float: left;
-          margin: 10px 0;
         }
       }
       ul{
@@ -773,7 +781,7 @@ img{
   .field-name-body{
     clear: both;
   }
-  .field-type-text{
+  .field-type-text, .field-type-email{
     width: 40%;
     float: right;
     @include res(s-m){
@@ -813,6 +821,7 @@ img{
   .views-field-title{
     font-size: 2em;
     color: $title-orange;
+    height: 30px;
   }
   .views-field-view-node a{
     @include button;
@@ -1061,16 +1070,38 @@ img{
 
 #block-views-customer-block{
   h3{
-    text-align: center;
     font-size: 2em;
     clear: both;
     padding: 55px 0 0px;
     display: block;
+    border-bottom: 1px solid $orange;
+    color: $orange;
   }
   .views-row{
-    width: 18%;
+    width: 12%;
     margin-left: 2%;
     float: right;
+    margin-bottom: 10px;
+    @include res(l){
+      width: 17%;
+    }
+    @include res(m){
+      width: 23%;
+    }
+    @include res(m){
+
+    }
+  }
+  img{
+    border:1px solid #b5b5b5;
+    padding: 2px;
+  }
+  .views-field-title{
+    font-size: 0.9em;
+    height: 32px;
+    line-height: 1em;
+    margin-top: 3px;
+    text-align: center;
   }
 }
 
@@ -1184,7 +1215,8 @@ img{
       font-size: 1.5em;
       color: $orange;
       font-weight: bold;
-      margin-top: 11px;
+      margin-bottom: 4px;
+      margin-top: -11px;
     }
   }
   .view-team.view-display-id-block_1{
