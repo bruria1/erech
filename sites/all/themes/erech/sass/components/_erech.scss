@@ -78,6 +78,9 @@ body{
 
 #wrapper-main{
     background-color: #f0f0f0;
+    @include res(s-m){
+      background-color: #fff;
+    }
 }
 
 
@@ -1125,6 +1128,9 @@ img{
   article{
       background-color: #3f3f3f;
   }
+  #page-title{
+    padding: 0 2%;
+  }
   #webform-client-form-65{
     position: relative;
     width: 50%;
@@ -1256,6 +1262,10 @@ img{
   @include res(l){
       width: 100%;
   }
+  .views-row{
+      margin-top: 10px;
+      overflow: hidden;
+  }
   .view-text-site{
     color: #fff;
     padding-bottom: 20px;
@@ -1271,8 +1281,23 @@ img{
   .view-team.view-display-id-block_1{
     font-size: 1.2em;
     color: #fff;
+    .views-row{
+      @include res(s-m){
+        overflow: hidden;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid $title-orange;
+      }
+    }
+    .views-row-last{
+      border:none;
+    }
     .views-field-field-mail{
       float: left;
+      @include res(s-m){
+        width: 100%;
+        text-align: center;
+      }
       a{
         color: $title-orange;
       }
@@ -1280,7 +1305,10 @@ img{
     .views-field-field-role{
       float: right;
       clear: both;
-      margin-top: 10px;
+      @include res(s-m){
+        width: 100%;
+        text-align: center;
+      }
     }
   }
 }
