@@ -53,3 +53,5 @@
   </div>
 
 </article>
+<div class="title-map">מפת הגעה</div>
+<iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=iw&amp;geocode=&amp;q=%D7%99%D7%A2%D7%A7%D7%91+%D7%90%D7%9C%D7%99%D7%90%D7%91+5,+%D7%99%D7%A8%D7%95%D7%A9%D7%9C%D7%99%D7%9D,+%D7%99%D7%A9%D7%A8%D7%90%D7%9C&amp;aq=0&amp;oq=+%D7%99%D7%A2%D7%A7%D7%91+%D7%90%D7%9C%D7%99%D7%90%D7%91+5,&amp;sll=37.0625,-95.677068&amp;sspn=39.592876,86.572266&amp;ie=UTF8&amp;hq=&amp;hnear=%D7%99%D7%A2%D7%A7%D7%91+%D7%90%D7%9C%D7%99%D7%90%D7%91+5,+%D7%99%D7%A8%D7%95%D7%A9%D7%9C%D7%99%D7%9D,+%D7%99%D7%A9%D7%A8%D7%90%D7%9C&amp;ll=31.794294,35.187648&amp;spn=0.005198,0.010568&amp;t=m&amp;z=14&amp;output=embed"></iframe>
