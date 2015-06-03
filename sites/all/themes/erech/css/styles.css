@@ -3314,7 +3314,6 @@ img {
 /* line 1281, ../sass/components/_erech.scss */
 .page-node-65 .field-name-body .right {
   width: 50%;
-  padding: 0 2%;
   box-sizing: border-box;
   float: right;
 }
@@ -3324,7 +3323,7 @@ img {
     width: 100%;
   }
 }
-/* line 1290, ../sass/components/_erech.scss */
+/* line 1289, ../sass/components/_erech.scss */
 .page-node-65 .field-name-body .left {
   width: 50%;
   padding: 0 2%;
@@ -3332,13 +3331,13 @@ img {
   float: left;
 }
 @media (max-width: 767px) {
-  /* line 1290, ../sass/components/_erech.scss */
+  /* line 1289, ../sass/components/_erech.scss */
   .page-node-65 .field-name-body .left {
     width: 100%;
   }
 }
 
-/* line 1302, ../sass/components/_erech.scss */
+/* line 1301, ../sass/components/_erech.scss */
 .customer {
   float: left;
   width: 50%;
@@ -3347,41 +3346,41 @@ img {
   box-sizing: border-box;
 }
 @media (max-width: 767px) {
-  /* line 1302, ../sass/components/_erech.scss */
+  /* line 1301, ../sass/components/_erech.scss */
   .customer {
     width: 100%;
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
-  /* line 1302, ../sass/components/_erech.scss */
+  /* line 1301, ../sass/components/_erech.scss */
   .customer {
     width: 100%;
   }
 }
-/* line 1314, ../sass/components/_erech.scss */
+/* line 1313, ../sass/components/_erech.scss */
 .customer .views-row {
   margin-top: 10px;
   overflow: hidden;
 }
-/* line 1318, ../sass/components/_erech.scss */
+/* line 1317, ../sass/components/_erech.scss */
 .customer .view-text-site {
   color: #fff;
   padding-bottom: 20px;
 }
-/* line 1322, ../sass/components/_erech.scss */
+/* line 1321, ../sass/components/_erech.scss */
 .customer .view-text-site .views-field-title h2 {
   font-size: 1.5em;
   color: #ef8f3b;
   margin: 0;
   padding-top: 11px;
 }
-/* line 1330, ../sass/components/_erech.scss */
+/* line 1329, ../sass/components/_erech.scss */
 .customer .view-team.view-display-id-block_1 {
   font-size: 1.2em;
   color: #fff;
 }
 @media (max-width: 767px) {
-  /* line 1333, ../sass/components/_erech.scss */
+  /* line 1332, ../sass/components/_erech.scss */
   .customer .view-team.view-display-id-block_1 .views-row {
     overflow: hidden;
     margin-bottom: 10px;
@@ -3389,39 +3388,39 @@ img {
     border-bottom: 1px solid #d56625;
   }
 }
-/* line 1341, ../sass/components/_erech.scss */
+/* line 1340, ../sass/components/_erech.scss */
 .customer .view-team.view-display-id-block_1 .views-row-last {
   border: none;
 }
-/* line 1344, ../sass/components/_erech.scss */
+/* line 1343, ../sass/components/_erech.scss */
 .customer .view-team.view-display-id-block_1 .views-field-field-mail {
   float: left;
 }
 @media (max-width: 767px) {
-  /* line 1344, ../sass/components/_erech.scss */
+  /* line 1343, ../sass/components/_erech.scss */
   .customer .view-team.view-display-id-block_1 .views-field-field-mail {
     width: 100%;
     text-align: center;
   }
 }
-/* line 1350, ../sass/components/_erech.scss */
+/* line 1349, ../sass/components/_erech.scss */
 .customer .view-team.view-display-id-block_1 .views-field-field-mail a {
   color: #d56625;
 }
-/* line 1354, ../sass/components/_erech.scss */
+/* line 1353, ../sass/components/_erech.scss */
 .customer .view-team.view-display-id-block_1 .views-field-field-role {
   float: right;
   clear: both;
 }
 @media (max-width: 767px) {
-  /* line 1354, ../sass/components/_erech.scss */
+  /* line 1353, ../sass/components/_erech.scss */
   .customer .view-team.view-display-id-block_1 .views-field-field-role {
     width: 100%;
     text-align: center;
   }
 }
 
-/* line 1365, ../sass/components/_erech.scss */
+/* line 1364, ../sass/components/_erech.scss */
 .title-map {
   padding: 58px 0 38px;
   text-align: center;
@@ -3432,7 +3431,7 @@ img {
 }
 
 /******* checkbox  **********/
-/* line 1376, ../sass/components/_erech.scss */
+/* line 1375, ../sass/components/_erech.scss */
 .webform-component-checkboxes .form-item input[type=checkbox].form-checkbox {
   /*position: absolute; */
   overflow: hidden;
@@ -3443,7 +3442,7 @@ img {
   padding: 0;
   border: 0;
 }
-/* line 1386, ../sass/components/_erech.scss */
+/* line 1385, ../sass/components/_erech.scss */
 .webform-component-checkboxes .form-item input[type=checkbox].form-checkbox + label.in-field-labels-processed {
   padding-right: 33px;
   height: 15px;
@@ -3458,19 +3457,19 @@ img {
   position: relative;
   padding-top: 7px;
 }
-/* line 1400, ../sass/components/_erech.scss */
+/* line 1399, ../sass/components/_erech.scss */
 .webform-component-checkboxes .form-item input[type=checkbox].form-checkbox:checked + label.in-field-labels-processed {
   background-position: right -24px;
 }
-/* line 1403, ../sass/components/_erech.scss */
+/* line 1402, ../sass/components/_erech.scss */
 .webform-component-checkboxes .form-item input.form-checkbox {
   display: none;
 }
-/* line 1406, ../sass/components/_erech.scss */
+/* line 1405, ../sass/components/_erech.scss */
 .webform-component-checkboxes .form-item .in-field-labels-processed {
   background-image: url("../images/checkbox.png");
 }
-/* line 1409, ../sass/components/_erech.scss */
+/* line 1408, ../sass/components/_erech.scss */
 .webform-component-checkboxes .form-item .form-type-checkbox label:after {
   content: none;
 }
