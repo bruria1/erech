@@ -150,6 +150,9 @@ img{
 **************************************************/
 #header{
   @include width;
+  @include res(s-m){
+    background-color: #e3e3e3;
+  }
   #navigation{
     position: relative;
     float: left;
@@ -562,10 +565,10 @@ img{
 
 #mmenu_right{
     max-width: 100%;
-    top: 78px;
+    top: 73px;
     width: 100%;
     @include res(s){
-      top: 62px;
+      top: 56px;
     }
     a.mm-subopen{
       float: left;
