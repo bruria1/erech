@@ -145,6 +145,14 @@ img{
     padding-right: 0;
   }
 }
+
+.views-field-edit-node a{
+  @include button;
+  background-color: #bb1f20;
+  &:hover{
+    background-color: #d94747;
+  }
+}
 /**************************************************
                     top   
 **************************************************/
