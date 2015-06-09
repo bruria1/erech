@@ -764,7 +764,7 @@ img{
     font-size: 1.4em;
     line-height: 1.3em;
     strong{
-      margin: 25px 0 18px;
+      margin: 0px 0 18px;
       display: block;
     }
   }
@@ -1557,5 +1557,32 @@ img{
   }
   .form-type-checkbox label:after{
     content: none;
+  }
+}
+
+/**************************************************
+                    about 
+**************************************************/
+
+.page-node-2{
+  #block-views-text-site-block-2, .field-name-body{
+    width: 50%;
+    float: right;
+    clear: right;
+    @include res(s-m){
+      width: 100%;
+    }
+  }
+  .field-name-field-image{
+    float: left;
+    margin-right: 3%;
+    width: 47%;
+    @include res(s-m){
+      width: 100%;
+      margin-right: 0;
+    }
+  }
+  .about-button{
+    @include button;
   }
 }

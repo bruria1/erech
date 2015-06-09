@@ -1699,7 +1699,7 @@ tr.selected td {
 /* line 803, ../sass/components/_misc.scss */
 .progress .filled {
   background-color: #0072b9;
-  background-image: url('../images/progress.gif?1432794522');
+  background-image: url('../images/progress.gif?1432013097');
 }
 
 @font-face {
@@ -2620,7 +2620,7 @@ img {
 }
 /* line 766, ../sass/components/_erech.scss */
 .front .field-name-body strong {
-  margin: 25px 0 18px;
+  margin: 0px 0 18px;
   display: block;
 }
 /* line 771, ../sass/components/_erech.scss */
@@ -3662,6 +3662,48 @@ img {
 /* line 1558, ../sass/components/_erech.scss */
 .webform-component-checkboxes .form-item .form-type-checkbox label:after {
   content: none;
+}
+
+/**************************************************
+                    about 
+**************************************************/
+/* line 1568, ../sass/components/_erech.scss */
+.page-node-2 #block-views-text-site-block-2, .page-node-2 .field-name-body {
+  width: 50%;
+  float: right;
+  clear: right;
+}
+@media (max-width: 767px) {
+  /* line 1568, ../sass/components/_erech.scss */
+  .page-node-2 #block-views-text-site-block-2, .page-node-2 .field-name-body {
+    width: 100%;
+  }
+}
+/* line 1576, ../sass/components/_erech.scss */
+.page-node-2 .field-name-field-image {
+  float: left;
+  margin-right: 3%;
+  width: 47%;
+}
+@media (max-width: 767px) {
+  /* line 1576, ../sass/components/_erech.scss */
+  .page-node-2 .field-name-field-image {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+/* line 1585, ../sass/components/_erech.scss */
+.page-node-2 .about-button {
+  padding: 5px 10px;
+  background-color: #ef8f3b;
+  color: #fff;
+  border-radius: 7px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+/* line 46, ../sass/components/_erech.scss */
+.page-node-2 .about-button:hover {
+  background-color: #ffaf66;
 }
 
 /**
