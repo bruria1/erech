@@ -900,6 +900,7 @@ img{
 .field-name-field-image, .field-name-field-service-image{
   float: left;
   margin: 0 30px 30px 0;
+  max-width: 65%;
   @include res(s-m){
     width: 100%;
     img{
